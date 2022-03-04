@@ -1,10 +1,10 @@
 # Análise dos dados do Campeonato Brasileiro de futebol
 
-Projeto teste para análise dos dados Campeonato Brasileiro.
+Projeto teste para análise dos dados Campeonato Brasileiro. Algumas técnicas utilizadas:
 - Obter dados via api;
 - Obter dados via web scraping;
 - Análise de texto com nuvem de palavras;
-- Análise exploratória.
+- Análise exploratória (incompleta).
 
 Grande parte do trabalho foi realizado na linguagem 'R'. Para executar o código instale o 'R' e 'RStudio'. No linux utilize os comandos abaixo:
 
