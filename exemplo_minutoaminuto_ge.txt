@@ -1,0 +1,849 @@
+window.lances = [{
+    "corpo": {
+        "blocks": [{
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "6ml47",
+            "text": "Agora \u00e9 assim: depois do jogo, tem transmiss\u00e3o ao vivo no GloboEsporte.com, com an\u00e1lise dos comentaristas e entrevistas dos jogadores. Veja como foi:",
+            "type": "unstyled"
+        }, {
+            "data": {
+                "caption": "Milton Leite e Ricardinho analisam vit\u00f3ria do S\u00e3o Paulo sobre o Botafogo",
+                "identifier": 7573813,
+                "type": "backstage-video"
+            },
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "dt9fh",
+            "text": "",
+            "type": "atomic"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "6p3pu",
+            "text": "",
+            "type": "unstyled"
+        }],
+        "entityMap": {}
+    },
+    "created": "2019-04-27T22:12:31.794Z",
+    "disputaPenalti": "",
+    "id": "77dac290-5ff2-4bba-941b-0e1274465b24",
+    "momento": "02:00",
+    "periodo": "POS_JOGO",
+    "periodoLabel": "P\u00f3s Jogo",
+    "tipoLance": "POS_JOGO_DESTAQUE",
+    "titulo": "An\u00e1lise",
+    "transmissaoId": "5cb252b1-8572-4970-a4c6-a26163ff0f34"
+}, {
+    "corpo": {
+        "blocks": [{
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "9n5i9",
+            "text": "O S\u00e3o Paulo apresentou uma mudan\u00e7a t\u00e1tica: Pato passou a sair mais da \u00e1rea e cair pela esquerda. Foi assim que fez grande jogada individual aos 5, que por pouco n\u00e3o resultou em gol de Tch\u00ea Tch\u00ea. No geral, por\u00e9m, s\u00f3 o Botafogo tentou jogar. O time carioca chegou a ficar com 66% de posse de bola e cresceu com a entrada de Luiz Fernando. J\u00e1 o S\u00e3o Paulo se fechou, buscando um contra-ataque. Cuca ainda colocou Hernanes no lugar de Igor Gomes para tentar ficar mais com a bola - sem sucesso. O Botafogo seguiu dominante em dois ter\u00e7os do campo - faltou o \u00faltimo, o de ataque. Apesar de o time carioca ter tido muito mais posse de bola, o goleiro tricolor Tiago Volpi saiu com o uniforme praticamente limpo. E viu de longe Hudson matar o jogo, com bela finaliza\u00e7\u00e3o de fora da \u00e1rea, ap\u00f3s jogada de Tch\u00ea Tch\u00ea com Hernanes. Deu tempo ainda de o tamb\u00e9m estreante Tor\u00f3 mostrar que pode ser \u00fatil ao S\u00e3o Paulo, com muitas jogadas em velocidade.",
+            "type": "unstyled"
+        }, {
+            "data": {
+                "caption": "Tor\u00f3 entrou bem em S\u00e3o Paulo x Botafogo",
+                "display": "normal",
+                "file": {
+                    "crop": {
+                        "bottom": 2193,
+                        "height": 2193,
+                        "left": 0,
+                        "right": 3567,
+                        "top": 0,
+                        "width": 3567
+                    },
+                    "height": 2193,
+                    "isAnimated": false,
+                    "sizes": {
+                        "L": {
+                            "height": 360,
+                            "url": "https:\/\/s2.glbimg.com\/fUfuPGpD1ZpjduYLTDksRCy9Fx4=\/0x0:3567x2193\/640x360\/smart\/filters:quality(70)\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7428.jpg",
+                            "width": 640
+                        },
+                        "M": {
+                            "height": 270,
+                            "url": "https:\/\/s2.glbimg.com\/ua-0jBQe8w9e8nfvVmLGfmrclEI=\/0x0:3567x2193\/480x270\/smart\/filters:quality(70)\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7428.jpg",
+                            "width": 480
+                        },
+                        "S": {
+                            "height": 180,
+                            "url": "https:\/\/s2.glbimg.com\/EmHjgnLIje4uGBaE_ToebJOZqDk=\/0x0:3567x2193\/320x180\/smart\/filters:quality(70)\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7428.jpg",
+                            "width": 320
+                        }
+                    },
+                    "thumborUrl": "http:\/\/s2.glbimg.com\/ujre0Uv5lkpvIiCgjhWhlfFaQug=\/200x0\/filters:quality(70)\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7428.jpg",
+                    "type": "image\/jpeg",
+                    "url": "http:\/\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7428.jpg",
+                    "width": 3567
+                },
+                "rightsHolder": "Marcos Ribolli",
+                "type": "backstage-photo"
+            },
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "1t7bp",
+            "text": "",
+            "type": "atomic"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "4lher",
+            "text": "",
+            "type": "unstyled"
+        }],
+        "entityMap": {}
+    },
+    "created": "2019-04-27T21:11:20.782Z",
+    "disputaPenalti": "",
+    "id": "9ccf75c8-133f-454d-8cd7-e840a1105324",
+    "momento": "07:00",
+    "periodo": "POS_JOGO",
+    "periodoLabel": "P\u00f3s Jogo",
+    "tipoLance": "POS_JOGO_DESTAQUE",
+    "titulo": "Segundo tempo",
+    "transmissaoId": "5cb252b1-8572-4970-a4c6-a26163ff0f34"
+}, {
+    "corpo": {
+        "blocks": [{
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "3l8m8",
+            "text": "O Botafogo teve mais posse de bola (61% contra 39%), mas abusou dos passes laterais, sem criatividade e nem velocidade. J\u00e1 o S\u00e3o Paulo, com os refor\u00e7os de Tch\u00ea Tch\u00ea e Pato, foi muito mais incisivo. o time de Cuca pressionou jogou de forma vertical, acelerando o jogo sempre que poss\u00edvel. Foi assim que surgiu o gol, aos 40 minutos, com Tch\u00ea Tch\u00ea passando e arrancando no espa\u00e7o vazio, combinando com Igor Vin\u00edcius, at\u00e9 a bola chegar na ponta direita para Antony cruzar para Everton completar de cabe\u00e7a. ",
+            "type": "unstyled"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "47k48",
+            "text": "",
+            "type": "unstyled"
+        }, {
+            "data": {
+                "caption": "Everton comemora gol em S\u00e3o Paulo x Botafogo",
+                "display": "normal",
+                "file": {
+                    "crop": {
+                        "bottom": 1627,
+                        "height": 1627,
+                        "left": 0,
+                        "right": 2558,
+                        "top": 0,
+                        "width": 2558
+                    },
+                    "height": 1627,
+                    "isAnimated": false,
+                    "sizes": {
+                        "L": {
+                            "height": 360,
+                            "url": "https:\/\/s2.glbimg.com\/o74n5UDI9LVYdBCqaRr9W58pZok=\/0x0:2558x1627\/640x360\/smart\/filters:quality(70)\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7258.jpg",
+                            "width": 640
+                        },
+                        "M": {
+                            "height": 270,
+                            "url": "https:\/\/s2.glbimg.com\/ShWt6b66diLQP8jxDWMqMdq1s5s=\/0x0:2558x1627\/480x270\/smart\/filters:quality(70)\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7258.jpg",
+                            "width": 480
+                        },
+                        "S": {
+                            "height": 180,
+                            "url": "https:\/\/s2.glbimg.com\/jGoYiXRnYW4s6vvQAgxknLtZDbs=\/0x0:2558x1627\/320x180\/smart\/filters:quality(70)\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7258.jpg",
+                            "width": 320
+                        }
+                    },
+                    "thumborUrl": "http:\/\/s2.glbimg.com\/P06oTkG2tm958FsgYNr1dWttjQY=\/200x0\/filters:quality(70)\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7258.jpg",
+                    "type": "image\/jpeg",
+                    "url": "http:\/\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7258.jpg",
+                    "width": 2558
+                },
+                "rightsHolder": "Marcos Ribolli",
+                "type": "backstage-photo"
+            },
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5moon",
+            "text": "",
+            "type": "atomic"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "4ulh6",
+            "text": "",
+            "type": "unstyled"
+        }],
+        "entityMap": {}
+    },
+    "created": "2019-04-27T21:10:08.385Z",
+    "disputaPenalti": "",
+    "id": "542e85c6-17a1-47f3-84b1-87c782ac2616",
+    "momento": "06:00",
+    "periodo": "POS_JOGO",
+    "periodoLabel": "P\u00f3s Jogo",
+    "tipoLance": "POS_JOGO_DESTAQUE",
+    "titulo": "Primeiro tempo",
+    "transmissaoId": "5cb252b1-8572-4970-a4c6-a26163ff0f34"
+}, {
+    "corpo": {
+        "blocks": [{
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "etchq",
+            "text": "Apesar de muito superior na posse de bola (66%) durante toda a partida, o Botafogo insistiu muito pelo meio. Nas beiradas, tantos os dois laterais quanto Rodrigo Pimp\u00e3o e C\u00edcero pouco fizeram. Assim, faltou criatividade. No primeiro gol tricolor, erros de Pimp\u00e3o, Bochecha e da dupla de zaga. No segundo, Erik entregou o ouro para Tch\u00ea Tch\u00ea. O Alvinegro s\u00f3 chegou relativamente perto do gol em falta batida por Valencia, aos 39 da etapa final.",
+            "type": "unstyled"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [{
+                "key": 0,
+                "length": 12,
+                "offset": 0
+            }],
+            "inlineStyleRanges": [{
+                "length": 12,
+                "offset": 0,
+                "style": "BOLD"
+            }],
+            "key": "e0f3h",
+            "text": "CLIQUE AQUI e veja as notas dos jogadores",
+            "type": "unstyled"
+        }, {
+            "data": {
+                "caption": "Botafogo ",
+                "display": "normal",
+                "file": {
+                    "crop": {
+                        "bottom": 2174,
+                        "height": 2174,
+                        "left": 0,
+                        "right": 4497,
+                        "top": 0,
+                        "width": 4497
+                    },
+                    "height": 2917,
+                    "isAnimated": false,
+                    "sizes": {
+                        "L": {
+                            "height": 360,
+                            "url": "https:\/\/s2.glbimg.com\/x7SnhugngK3hE7eUcXWJ5zVPeYI=\/0x0:4497x2174\/640x360\/smart\/filters:quality(70)\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7055.jpg",
+                            "width": 640
+                        },
+                        "M": {
+                            "height": 270,
+                            "url": "https:\/\/s2.glbimg.com\/BGwXu9IDwaOQcpbwSioZjmXSoFY=\/0x0:4497x2174\/480x270\/smart\/filters:quality(70)\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7055.jpg",
+                            "width": 480
+                        },
+                        "S": {
+                            "height": 180,
+                            "url": "https:\/\/s2.glbimg.com\/B3WT9R4Ck9ipdm30CK4q992O-ug=\/0x0:4497x2174\/320x180\/smart\/filters:quality(70)\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7055.jpg",
+                            "width": 320
+                        }
+                    },
+                    "thumborUrl": "http:\/\/s2.glbimg.com\/SOGK1Ag3kN9p2SDbABFWDFi2CRE=\/200x0\/filters:quality(70)\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7055.jpg",
+                    "type": "image\/jpeg",
+                    "url": "http:\/\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7055.jpg",
+                    "width": 4497
+                },
+                "rightsHolder": "Marcos Ribolli",
+                "type": "backstage-photo"
+            },
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "egj2k",
+            "text": "",
+            "type": "atomic"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "ei3f2",
+            "text": "",
+            "type": "unstyled"
+        }],
+        "entityMap": {
+            "0": {
+                "data": {
+                    "url": "https:\/\/globoesporte.globo.com\/futebol\/times\/botafogo\/noticia\/atuacoes-do-botafogo-bochecha-se-salva-em-atuacao-ruim-do-ataque.ghtml"
+                },
+                "mutability": "MUTABLE",
+                "type": "LINK"
+            }
+        }
+    },
+    "created": "2019-04-27T21:09:19.124Z",
+    "disputaPenalti": "",
+    "id": "9c64f256-3e17-4df0-b1b3-9efa26a64bed",
+    "momento": "05:00",
+    "periodo": "POS_JOGO",
+    "periodoLabel": "P\u00f3s Jogo",
+    "tipoLance": "POS_JOGO_DESTAQUE",
+    "titulo": "Por que o Botafogo perdeu",
+    "transmissaoId": "5cb252b1-8572-4970-a4c6-a26163ff0f34"
+}, {
+    "corpo": {
+        "blocks": [{
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "7hiv3",
+            "text": "Porque soube verticalizar o jogo quando teve a bola. Com muito menos posse do que o Botafogo (terminou a partida com 34% contra 66%), o S\u00e3o Paulo apostou em transi\u00e7\u00f5es r\u00e1pidas para tentar surpreender o pesado time carioca. Foi numa dessas jogadas, acelerada por Tch\u00ea Tch\u00ea, que a bola chegou na ponta direita para Antony cruzar na cabe\u00e7a de Everton. No segundo tempo, a aposta foi nos contra-ataques. Deu certo. Tor\u00f3 entrou bem, mas o grande destaque foi Tch\u00ea Tch\u00ea, que participou dos dois gols - no segundo, foi ele quem recuperou a bola e acelerou o jogo at\u00e9 Hernanes dar de bandeja para Hudson matar o jogo.",
+            "type": "unstyled"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [{
+                "key": 0,
+                "length": 12,
+                "offset": 0
+            }],
+            "inlineStyleRanges": [{
+                "length": 11,
+                "offset": 0,
+                "style": "BOLD"
+            }],
+            "key": "4t35b",
+            "text": "CLIQUE AQUI e veja as notas dos jogadores.",
+            "type": "unstyled"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "2tkq5",
+            "text": "",
+            "type": "unstyled"
+        }, {
+            "data": {
+                "caption": "S\u00e3o Paulo ",
+                "display": "normal",
+                "file": {
+                    "crop": {
+                        "bottom": 2022,
+                        "height": 2022,
+                        "left": 0,
+                        "right": 3805,
+                        "top": 0,
+                        "width": 3805
+                    },
+                    "height": 2586,
+                    "isAnimated": false,
+                    "sizes": {
+                        "L": {
+                            "height": 360,
+                            "url": "https:\/\/s2.glbimg.com\/kh2fs8vJPXjDpgTvCXp816HduGk=\/0x0:3805x2022\/640x360\/smart\/filters:quality(70)\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7048.jpg",
+                            "width": 640
+                        },
+                        "M": {
+                            "height": 270,
+                            "url": "https:\/\/s2.glbimg.com\/5kqNgZp4_4MTK2fL53W67FvYhJ4=\/0x0:3805x2022\/480x270\/smart\/filters:quality(70)\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7048.jpg",
+                            "width": 480
+                        },
+                        "S": {
+                            "height": 180,
+                            "url": "https:\/\/s2.glbimg.com\/v5KjK_Eq__CBGQSm6whZpxgCkxY=\/0x0:3805x2022\/320x180\/smart\/filters:quality(70)\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7048.jpg",
+                            "width": 320
+                        }
+                    },
+                    "thumborUrl": "http:\/\/s2.glbimg.com\/3GXvQNlAVxA5tzM6AjEK0WRJZko=\/200x0\/filters:quality(70)\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7048.jpg",
+                    "type": "image\/jpeg",
+                    "url": "http:\/\/s.glbimg.com\/es\/ge\/f\/original\/2019\/04\/27\/rib7048.jpg",
+                    "width": 3805
+                },
+                "rightsHolder": "Marcos Ribolli",
+                "type": "backstage-photo"
+            },
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5b54i",
+            "text": "",
+            "type": "atomic"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "bbeth",
+            "text": "",
+            "type": "unstyled"
+        }],
+        "entityMap": {
+            "0": {
+                "data": {
+                    "url": "https:\/\/globoesporte.globo.com\/futebol\/times\/sao-paulo\/noticia\/atuacoes-do-sao-paulo-tche-tche-estreia-bem-everton-desencanta-e-alexandre-pato-e-discreto.ghtml"
+                },
+                "mutability": "MUTABLE",
+                "type": "LINK"
+            }
+        }
+    },
+    "created": "2019-04-27T21:08:04.414Z",
+    "disputaPenalti": "",
+    "id": "577bca93-a0e8-4c3b-8dc0-0a9e7a7def21",
+    "momento": "04:00",
+    "periodo": "POS_JOGO",
+    "periodoLabel": "P\u00f3s Jogo",
+    "tipoLance": "POS_JOGO_DESTAQUE",
+    "titulo": "Por que o S\u00e3o Paulo ganhou",
+    "transmissaoId": "5cb252b1-8572-4970-a4c6-a26163ff0f34"
+}, {
+    "corpo": {
+        "blocks": [{
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "dkvv6",
+            "text": "O S\u00e3o Paulo enfrenta o Goi\u00e1s, quarta-feira, \u00e0s 21h30, no Serra Dourada. J\u00e1 o Botafogo joga na quinta, contra o Bahia, \u00e0s 20h, no est\u00e1dio Nilton Santos.",
+            "type": "unstyled"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [{
+                "key": 0,
+                "length": 11,
+                "offset": 0
+            }],
+            "inlineStyleRanges": [{
+                "length": 12,
+                "offset": 0,
+                "style": "BOLD"
+            }],
+            "key": "2dqp5",
+            "text": "CLIQUE AQUI e veja a tabela do Brasileir\u00e3o.",
+            "type": "unstyled"
+        }, {
+            "data": {
+                "caption": "Os gols de S\u00e3o Paulo 2 x 0 Botafogo pela 1\u00aa rodada do Brasileir\u00e3o",
+                "identifier": 7573734,
+                "type": "backstage-video"
+            },
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "f89p8",
+            "text": "",
+            "type": "atomic"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "9o727",
+            "text": "",
+            "type": "unstyled"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "asefe",
+            "text": "",
+            "type": "unstyled"
+        }],
+        "entityMap": {
+            "0": {
+                "data": {
+                    "url": "https:\/\/globoesporte.globo.com\/futebol\/brasileirao-serie-a\/"
+                },
+                "mutability": "MUTABLE",
+                "type": "LINK"
+            }
+        }
+    },
+    "created": "2019-04-27T21:06:03.809Z",
+    "disputaPenalti": "",
+    "id": "3ef94ed1-88c7-4be4-b01a-93392ae8334d",
+    "momento": "03:00",
+    "periodo": "POS_JOGO",
+    "periodoLabel": "P\u00f3s Jogo",
+    "tipoLance": "POS_JOGO_DESTAQUE",
+    "titulo": "Pr\u00f3ximos jogos",
+    "transmissaoId": "5cb252b1-8572-4970-a4c6-a26163ff0f34"
+}, {
+    "corpo": {
+        "blocks": [{
+            "data": {
+                "caption": "Initial plugin text",
+                "draftContent": {
+                    "blocks": [{
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [{
+                            "key": 0,
+                            "length": 6,
+                            "offset": 6
+                        }],
+                        "inlineStyleRanges": [],
+                        "key": "aao0l",
+                        "text": "Hudson, autor do segundo gol do @SaoPauloFC, tem a melhor pontua\u00e7\u00e3o da partida de abertura do Brasileir\u00e3o: 7,70. #trmorumbi",
+                        "type": "unstyled"
+                    }],
+                    "entityMap": {}
+                },
+                "embedData": {
+                    "authorName": "cartolafc",
+                    "authorUrl": "https:\/\/twitter.com\/cartolafc",
+                    "cacheAge": "3153600000",
+                    "date": "27 Abril, 2019",
+                    "dir": "\"ltr\"",
+                    "height": null,
+                    "lang": "\"pt\"",
+                    "providerName": "Twitter",
+                    "providerUrl": "https:\/\/twitter.com",
+                    "tweetId": "1122244219815571456",
+                    "type": "rich",
+                    "url": "https:\/\/twitter.com\/cartolafc\/status\/1122244219815571456",
+                    "version": "1.0",
+                    "width": 550
+                },
+                "media": "twitter",
+                "type": "embed-social",
+                "url": "https:\/\/twitter.com\/cartolafc\/status\/1122244219815571456"
+            },
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "b5q9",
+            "text": "",
+            "type": "atomic"
+        }],
+        "entityMap": {}
+    },
+    "created": "2019-04-27T21:00:52.446Z",
+    "id": "6c7a6ac4-2d54-4056-8374-69d549ef6422",
+    "momento": "00:00",
+    "periodo": "FIM_DE_JOGO",
+    "periodoLabel": "Fim de jogo",
+    "tipoLance": "TWITTER",
+    "transmissaoId": "5cb252b1-8572-4970-a4c6-a26163ff0f34"
+}, {
+    "corpo": {
+        "blocks": [{
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "frar7",
+            "text": "O primeiro jogo do Campeonato Brasileiro terminou com vit\u00f3ria do time da casa: S\u00e3o Paulo 2 x 0 Botafogo, no Morumbi, gols de Everton e Hudson. A partida marcou a reestreia de Alexandre Pato com a camisa tricolor. Atuando com a camisa 7, mas na fun\u00e7\u00e3o de 9 no primeiro tempo, Pato teve atua\u00e7\u00e3o discreta - melhorou no segundo, quando jogou mais fora da \u00e1rea. Foi tamb\u00e9m o primeiro jogo do Botafogo sob o comando de Eduardo Barroca. O time, que n\u00e3o jogava desde 11 de abril, mostrou evolu\u00e7\u00e3o em rela\u00e7\u00e3o ao time de Z\u00e9 Ricardo, teve mais posse de bola (66% contra 34%), mas pouca criatividade do meio pra frente. ",
+            "type": "unstyled"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "dtafp",
+            "text": "Veja no v\u00eddeo os melhores momentos de S\u00e3o Paulo 2 x 0 Botafogo:",
+            "type": "unstyled"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "ckq2f",
+            "text": "",
+            "type": "unstyled"
+        }, {
+            "data": {
+                "caption": "Melhores momentos: S\u00e3o Paulo 2 x 0 Botafogo pela 1\u00aa rodada do Brasileir\u00e3o",
+                "identifier": 7573739,
+                "type": "backstage-video"
+            },
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "82ssj",
+            "text": "",
+            "type": "atomic"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "se9m",
+            "text": "",
+            "type": "unstyled"
+        }],
+        "entityMap": {}
+    },
+    "created": "2019-04-27T21:00:47.296Z",
+    "disputaPenalti": "",
+    "id": "1fea82f4-39a6-4116-b953-733a8e2b4148",
+    "momento": "01:00",
+    "periodo": "POS_JOGO",
+    "periodoLabel": "P\u00f3s Jogo",
+    "tipoLance": "POS_JOGO_DESTAQUE",
+    "titulo": "Deu Tricolor",
+    "transmissaoId": "5cb252b1-8572-4970-a4c6-a26163ff0f34"
+}, {
+    "corpo": {
+        "blocks": [{
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "9vgd",
+            "text": "\"Important\u00edssima a vit\u00f3ria, sabemos a dificuldade do Campeonato Brasileiro e a obriga\u00e7\u00e3o de fazer tr\u00eas pontos em casa. Hoje a torcida compareceu, e fizemos um bom jogo. A proposta do Botafogo era interessante, de preencher o meio e ter a bola. A vit\u00f3ria d\u00e1 confian\u00e7a \u00e0 equipe, temos que pensar \u00e0 frente, em melhorar.\"",
+            "type": "unstyled"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "76ju0",
+            "text": "",
+            "type": "unstyled"
+        }, {
+            "data": {
+                "caption": "Autor de um dos gols, Hudson fala sobre dificuldade do Brasileiro e import\u00e2ncia da vit\u00f3ria em casa",
+                "identifier": 7573740,
+                "type": "backstage-video"
+            },
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "d7d87",
+            "text": "",
+            "type": "atomic"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "8m5r2",
+            "text": "",
+            "type": "unstyled"
+        }],
+        "entityMap": {}
+    },
+    "created": "2019-04-27T20:59:49.581Z",
+    "disputaPenalti": "",
+    "id": "90ce723d-a901-4b57-b9a0-b45c85db29ca",
+    "jogador": 50324,
+    "momento": "",
+    "periodo": "FIM_DE_JOGO",
+    "periodoLabel": "Fim de jogo",
+    "time": 276,
+    "tipoLance": "NORMAL",
+    "titulo": "Fala o autor do segundo gol tricolor",
+    "transmissaoId": "5cb252b1-8572-4970-a4c6-a26163ff0f34"
+}, {
+    "corpo": {
+        "blocks": [{
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "9vgd",
+            "text": "\"Fizemos um primeiro tempo bom, mas criamos poucas chances de gol. Tivemos a posse e tudo, mas criamos pouco. Temos que criar mais, a bola precisa chegar para fazermos os gols. Temos de acertar porque quinta-feira temos outra decis\u00e3o\".",
+            "type": "unstyled"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "1i5gj",
+            "text": "",
+            "type": "unstyled"
+        }, {
+            "data": {
+                "caption": "Erik diz que Botafogo fez um bom primeiro tempo, mas criou pouco contra o S\u00e3o Paulo",
+                "identifier": 7573735,
+                "type": "backstage-video"
+            },
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "96esc",
+            "text": "",
+            "type": "atomic"
+        }, {
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5p3fs",
+            "text": "",
+            "type": "unstyled"
+        }],
+        "entityMap": {}
+    },
+    "created": "2019-04-27T20:58:29.116Z",
+    "disputaPenalti": "",
+    "id": "7ef55110-0f9a-4719-9a78-2517e856caaa",
+    "jogador": 84848,
+    "momento": "",
+    "periodo": "FIM_DE_JOGO",
+    "periodoLabel": "Fim de jogo",
+    "time": 263,
+    "tipoLance": "NORMAL",
+    "titulo": "Qual li\u00e7\u00e3o fica para o Botafogo?",
+    "transmissaoId": "5cb252b1-8572-4970-a4c6-a26163ff0f34"
+}, {
+    "corpo": {
+        "blocks": [{
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "9muco",
+            "text": "\u00c9 fim de jogo! O S\u00e3o Paulo estreia no Brasileir\u00e3o vencendo o Botafogo por 2 a 0, no Morumbi.",
+            "type": "unstyled"
+        }],
+        "entityMap": {}
+    },
+    "created": "2019-04-27T20:56:50.927Z",
+    "disputaPenalti": "",
+    "id": "81c078f8-8c19-47e7-b4fc-51816badb5c8",
+    "momento": "49:43",
+    "periodo": "SEGUNDO_TEMPO",
+    "periodoLabel": "2\u00ba tempo",
+    "tipoLance": "NORMAL",
+    "titulo": "Apita o \u00e1rbitro",
+    "transmissaoId": "5cb252b1-8572-4970-a4c6-a26163ff0f34"
+}, {
+    "corpo": {
+        "blocks": [{
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5b5ea",
+            "text": "De longe, Hernanes cobra falta com for\u00e7a, mas manda nas m\u00e3os de Gatito.",
+            "type": "unstyled"
+        }],
+        "entityMap": {}
+    },
+    "created": "2019-04-27T20:56:42.264Z",
+    "disputaPenalti": "",
+    "id": "6b4b3d92-f6f8-4c78-8068-2be2a9876da2",
+    "momento": "49:25",
+    "periodo": "SEGUNDO_TEMPO",
+    "periodoLabel": "2\u00ba tempo",
+    "tipoLance": "NORMAL",
+    "titulo": "",
+    "transmissaoId": "5cb252b1-8572-4970-a4c6-a26163ff0f34"
+}, {
+    "corpo": {
+        "blocks": [{
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "fd5v2",
+            "text": "S\u00e3o Paulo acende as luzes dos celulares e faz uma bonita festa no Morumbi.",
+            "type": "unstyled"
+        }],
+        "entityMap": {}
+    },
+    "created": "2019-04-27T20:56:23.431Z",
+    "disputaPenalti": "",
+    "id": "f0d2693a-92b2-437b-837b-677ccebb9c19",
+    "momento": "49:03",
+    "periodo": "SEGUNDO_TEMPO",
+    "periodoLabel": "2\u00ba tempo",
+    "tipoLance": "NORMAL",
+    "titulo": "",
+    "transmissaoId": "5cb252b1-8572-4970-a4c6-a26163ff0f34"
+}, {
+    "corpo": {
+        "blocks": [{
+            "data": {
+                "caption": "Initial plugin text",
+                "draftContent": {
+                    "blocks": [{
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [{
+                            "key": 0,
+                            "length": 6,
+                            "offset": 6
+                        }],
+                        "inlineStyleRanges": [],
+                        "key": "aao0l",
+                        "text": "Torcida faz festa no #trmorumbi https:\/\/t.co\/G2Bv9Y5oUX",
+                        "type": "unstyled"
+                    }],
+                    "entityMap": {}
+                },
+                "embedData": {
+                    "authorName": "eroliveira_",
+                    "authorUrl": "https:\/\/twitter.com\/eroliveira_",
+                    "cacheAge": "3153600000",
+                    "date": "27 Abril, 2019",
+                    "dir": "\"ltr\"",
+                    "height": null,
+                    "lang": "\"pt\"",
+                    "providerName": "Twitter",
+                    "providerUrl": "https:\/\/twitter.com",
+                    "tweetId": "1122243087408013313",
+                    "type": "rich",
+                    "url": "https:\/\/twitter.com\/eroliveira_\/status\/1122243087408013313",
+                    "version": "1.0",
+                    "width": 550
+                },
+                "media": "twitter",
+                "type": "embed-social",
+                "url": "https:\/\/twitter.com\/eroliveira_\/status\/1122243087408013313"
+            },
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "b5q9",
+            "text": "",
+            "type": "atomic"
+        }],
+        "entityMap": {}
+    },
+    "created": "2019-04-27T20:56:23.186Z",
+    "id": "b2f72a70-d645-4087-8f18-9cc43b890199",
+    "momento": "49:00",
+    "periodo": "SEGUNDO_TEMPO",
+    "periodoLabel": "2\u00ba tempo",
+    "tipoLance": "TWITTER",
+    "transmissaoId": "5cb252b1-8572-4970-a4c6-a26163ff0f34"
+}, {
+    "corpo": {
+        "blocks": [{
+            "data": {},
+            "depth": 0,
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "510o8",
+            "text": "Tor\u00f3 entrou muito bem no jogo. ",
+            "type": "unstyled"
+        }],
+        "entityMap": {}
+    },
+    "created": "2019-04-27T20:55:49.186Z",
+    "disputaPenalti": "",
+    "id": "87bc0070-e77a-4aa9-8640-981ba6969d5f",
+    "momento": "48:38",
+    "periodo": "SEGUNDO_TEMPO",
+    "periodoLabel": "2\u00ba tempo",
+    "tipoLance": "NORMAL",
+    "titulo": "",
+    "transmissaoId": "5cb252b1-8572-4970-a4c6-a26163ff0f34"
+},

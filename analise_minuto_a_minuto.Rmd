@@ -1,0 +1,227 @@
+---
+title: "Análise minuto a minuto - Campeonato Brasileiro - Série A"
+output: html_notebook
+---
+
+#Analise minuto a minuto
+
+```{r}
+library(tidyverse)
+library(httr)
+library(rlist)
+library(jsonlite)
+library(dplyr)
+library(rvest)
+library(rebus)
+library(lubridate)
+library(tidytext)
+library(lexiconPT)
+library(qdap)
+library(tm)
+library(stringi)
+library(wordcloud)
+```
+
+Obtendo lista de urls dos jogos:
+
+```{r}
+url_lances_df <- read.csv("datasets/urls_matches.csv", stringsAsFactors = FALSE)
+
+url_lances_df <- url_lances_df %>%
+  filter(url != "")
+
+times_url_lances_matrix <- matrix(
+  c("FOR", 154,
+    "CFC", 147,
+    "SPO", 123,			
+    "FLA", 127,			
+    "SAN", 128,			
+    "GRE", 130,			
+    "BOT", 120,			
+    "PAL", 121,			
+    "COR", 131,			
+    "GOI", 151,
+    "BGT", 794,			
+    "CAM", 1062,			
+    "CAP", 134,		
+    "BAH", 118,			
+    "ACG", 144,			
+    "FLU", 124,			
+    "CEA", 129,			
+    "SAO", 126,			
+    "INT", 119,			
+    "VAS", 133),
+  nrow = 20,
+  ncol = 2,
+  byrow = TRUE)
+```
+
+Obtendo o lances do minuto a minuto:
+
+```{r}
+for (i in 1:nrow(url_lances_df)) {
+  row <- url_lances_df[i,]
+  
+  lances_html <- read_html(row$url) %>%
+    html_text()
+  
+  "\\{\"corpo\":.*?\"transmissaoId\".*?\\}"
+  lances_json <- 
+    str_extract_all(lances_html, "\\{\"corpo\":.*\"transmissaoId\".*?\\}")
+  
+  lances <- fromJSON(str_c("[", lances_json, "]"))
+  num_lances <- length(lances$corpo$blocks)
+  # ultimo comentario
+  lances$corpo$blocks[[1]]$text[1]
+  # primeito comentario
+  lances$corpo$blocks[[num_lances]]$text[1]
+  
+  textos_df <- data.frame(texto = lances$corpo$blocks[[1]]$text[1])
+  for (i in 2:num_lances) {
+    textos_df <- textos_df %>%
+      add_row(texto = lances$corpo$blocks[[i]]$text[1])
+  }
+  
+  lances_partida_df <- data.frame("fixture_id" = NA,
+                                  "homeTeam_id" = NA,
+                                  "homeTeam_abv" = row$home_team_abv,
+                                  "awayTeam_id" = NA,
+                                  "awayTeam_abv" = row$away_team_abv,
+                                  "url" = row$url,
+                                  "created" = lances$created,
+                                  "momento" = lances$momento,
+                                  "periodo" = lances$periodo,
+                                  "tipoLance" = lances$tipoLance)
+
+  lances_partida_df$texto <- as.character(textos_df$texto)
+
+  if (exists("lances_df"))
+    lances_df <- rbind(lances_df, lances_partida_df)
+  else
+    lances_df <- lances_partida_df
+
+  rm(lances_html, lances_json, lances, textos_df, lances_partida_df, row)
+}
+
+# removendo linhas sem texto
+lances_df <- lances_df %>%
+  filter(texto != "")
+
+# adicionando os times
+for (i in 1:20) {
+  lances_df$homeTeam_id <- 
+    ifelse(str_detect(lances_df$homeTeam_abv, times_url_lances_matrix[i,1]), 
+           times_url_lances_matrix[i,2], 
+           lances_df$homeTeam_id)
+    
+  lances_df$awayTeam_id <- 
+    ifelse(str_detect(lances_df$awayTeam_abv, times_url_lances_matrix[i,1]), 
+           times_url_lances_matrix[i,2], 
+           lances_df$awayTeam_id)
+}
+
+lances_df$homeTeam_id <- as.numeric(lances_df$homeTeam_id)
+lances_df$awayTeam_id <- as.numeric(lances_df$awayTeam_id)
+
+# verificando se times foram identifacos corretamente
+# mesmo time home e away
+lances_df %>%
+  filter(homeTeam_id == awayTeam_id) %>%
+  count(homeTeam_id, awayTeam_id) %>%
+  arrange(homeTeam_id)
+
+# presenca de NA
+lances_df %>%
+  filter(is.na(homeTeam_id) | is.na(awayTeam_id)) %>%
+  count(homeTeam_id, awayTeam_id) %>%
+  arrange(homeTeam_id)
+
+lances_df %>%
+  filter(is.na(homeTeam_id) | is.na(awayTeam_id)) %>%
+  select(url, homeTeam_id, awayTeam_id)
+
+# incluindo fixture_id
+lances_df <- fixtures_df %>%
+  select(fixture_id, homeTeam_id, awayTeam_id) %>%
+  inner_join(lances_df, by = c("homeTeam_id", "awayTeam_id"))
+
+lances_df$fixture_id <- lances_df$fixture_id.x
+
+lances_df <- lances_df %>%
+  select(-fixture_id.x, -fixture_id.y)
+
+rm(times_url_lances_matrix)
+```
+
+##Análise de texto
+
+```{r}
+summary(lances_df)
+
+custom_stopwords <- c(stopwords("portuguese"), "área", "bola", "jogo")
+
+clean_corpus <- function(corpus, stops) {
+  corpus <- tm_map(corpus, removePunctuation)
+  corpus <- tm_map(corpus, stripWhitespace)
+  corpus <- tm_map(corpus, removeNumbers)
+  corpus <- tm_map(corpus, content_transformer(tolower))
+  corpus <- tm_map(corpus, removeWords, stops)
+  corpus <- tm_map(corpus, content_transformer(stri_trans_general), 'Latin-ASCII')
+  return(corpus)
+}
+
+word_freq <- function(texto, stops) {
+  corpus <- VCorpus(VectorSource(texto))
+  corpus <- clean_corpus(corpus, stops)
+  tdm <- TermDocumentMatrix(corpus)
+  m <- as.matrix(tdm)
+  
+  terms <- rowSums(m)
+  terms <- sort(terms, decreasing = TRUE)
+  
+  word_freq <- data.frame(term = names(terms), 
+                          num = terms)
+  return(word_freq)
+}
+
+# Criando paleta de cores para nuvem
+paleta <- brewer.pal(8, "Reds")
+paleta <-paleta[-(1:2)]
+
+# palavras mais frequentes
+lances <- lances_df
+
+palavras_frequentes <- word_freq(lances$texto, custom_stopwords)
+wordcloud(palavras_frequentes$term, palavras_frequentes$num, max.words = 100, colors = paleta)
+
+# palavras mais frequentes por jogo
+lances <- lances_df %>%
+  filter(fixture_id == 327992)
+
+palavras_frequentes <- word_freq(lances$texto, custom_stopwords)
+wordcloud(palavras_frequentes$term, palavras_frequentes$num, max.words = 100, colors = paleta)
+
+# palavras mais frequentes por time
+lances <- lances_df %>%
+  filter(homeTeam_id == 119 | awayTeam_id == 119)
+
+palavras_frequentes <- word_freq(lances$texto, custom_stopwords)
+wordcloud(palavras_frequentes$term, palavras_frequentes$num, max.words = 100, colors = paleta)
+
+# palavras mais frequentes por rodada
+lances <- lances_df %>%
+  inner_join(fixtures_df) %>%
+  filter(round == "Regular Season - 1")
+
+palavras_frequentes <- word_freq(lances$texto, custom_stopwords)
+wordcloud(palavras_frequentes$term, palavras_frequentes$num, max.words = 100, colors = paleta)
+
+rm(lances, lances_corp, lances_clean, lances_tdm, lances_m, palavras_frequentes)
+```
+Análises que podem ser feitas a partir do texto extraído:
+
+- jogador mais citado por rodada com análise de sentimento;
+- jogador mais citado por jogo com análise de sentimento
+- time mais citado por jogo com sentimento
+- time mais citado ao longo do jogo
+- rede neural para identificar palavras próximas aos nomes de times e jogadores

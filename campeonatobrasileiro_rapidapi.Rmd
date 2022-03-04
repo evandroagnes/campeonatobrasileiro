@@ -1,0 +1,513 @@
+---
+title: "Análise de dados - Campeonato Brasileiro Série A"
+output: html_notebook
+---
+
+#Pacotes necessários para a análise:
+
+```{r}
+#install.packages("httr")
+#install.packages("rlist")
+#install.packages("jsonlite")
+#install.packages("dplyr")
+#install.packages("xml2")
+#install.packages("rvest")
+#install.packages("rebus")
+#install.packages("lexiconPT")
+#install.packages("tidytext")
+#install.packages("tm")
+#install.packages("stringi")
+#install.packages("wordcloud")
+#install.packages("qdap")
+#install.packages("magrittr")
+#install.packages("tidyverse")
+# the package qdap requires java, install it before
+
+library(tidyverse)
+library(httr)
+library(rlist)
+library(jsonlite)
+library(dplyr)
+library(rvest)
+library(rebus)
+library(lubridate)
+library(tidytext)
+library(lexiconPT)
+library(qdap)
+library(tm)
+library(stringi)
+library(wordcloud)
+library(magrittr)
+```
+
+#Analise dos dados das partidas
+
+No caso dos dados já terem sido obtidos, carregar os arquivos csv. Caso não precise/quer atualizá-los vá para a seção "Análises".
+
+```{r}
+fixtures_df <- read.csv("datasets/fixtures.csv")
+teams_df <- read.csv("datasets/teams.csv")
+events_df <- read.csv("datasets/events.csv")
+lineups_df <- read.csv("datasets/lineups.csv")
+statistics_df <- read.csv("datasets/statistics.csv")
+statistics_players_df <- read.csv("datasets/statistics_players.csv")
+```
+
+Obtendo dados das partidas a partir da api.football.com (https://www.api-football.com). São permitidas 100 requisições gratuitas por dia:
+
+Dados para acesso (é necessário fazer um cadastro no site para obter a api key):
+
+```{r}
+rapid_api_url <- ""
+rapid_api_key <- ""
+```
+
+```{r}
+# temporadas - seasons
+seasons_api <- GET("https://api-football-v1.p.rapidapi.com/v2/seasons", 
+               add_headers("X-RapidAPI-Key" = rapid_api_key,
+                           "Accept" = "application/json"))
+
+# Check http_type() of resp_json
+#http_type(seasons_api)
+
+# Examine returned text with content()
+#httr::content(seasons_api, as = "text")
+
+# Parse response with content()
+#httr::content(seasons_api, as = "parsed")
+
+# Parse returned text with fromJSON()
+#str(fromJSON(httr::content(seasons_api, as = "text")))
+
+# países - countries
+countries_api <- GET("https://api-football-v1.p.rapidapi.com/v2/countries", 
+                 add_headers("X-RapidAPI-Key" = rapid_api_key,
+                             "Accept" = "application/json"))
+
+#httr::content(countries_api, as = "parsed")
+
+# campeonatos - leagues
+leagues_api <- GET("https://api-football-v1.p.rapidapi.com/v2/leagues/country/BR/2020", 
+                   add_headers("X-RapidAPI-Key" = rapid_api_key,
+                               "Accept" = "application/json"))
+
+#httr::content(leagues_api, as = "parsed")
+leagues_df <- as.data.frame(fromJSON(httr::content(leagues_api, as = "text")))
+
+# times - teams
+teams_api <- GET("https://api-football-v1.p.rapidapi.com/v2/teams/league/1396",  # Serie A
+                 add_headers("X-RapidAPI-Key" = rapid_api_key,
+                             "Accept" = "application/json"))
+
+#httr::content(teams_api, as = "parsed")
+
+teams_df <- as.data.frame(fromJSON(httr::content(teams_api, as = "text")))
+teams_df <- teams_df %>%
+  select(-api.results)
+
+colnames(teams_df) <- c("team_id",
+                        "name",
+                        "code",
+                        "logo",
+                        "country",
+                        "founded",
+                        "venue_name",
+                        "venue_surface",
+                        "venue_address",
+                        "venue_city",
+                        "venue_capacity")
+
+# partidas - fixtures
+fixtures_api <- GET("https://api-football-v1.p.rapidapi.com/v2/fixtures/league/1396", # Serie A
+                    add_headers("X-RapidAPI-Key" = rapid_api_key,
+                                "Accept" = "application/json"))
+
+#httr::content(fixtures_api, as = "parsed")
+
+# transformando em um dataset simples
+fixtures_df_temp <- as.data.frame(fromJSON(httr::content(fixtures_api, as = "text")))
+
+fixtures_df <- fixtures_df_temp %>%
+  select("api.fixtures.fixture_id",
+         "api.fixtures.league_id",
+         "api.fixtures.event_date",
+         "api.fixtures.event_timestamp",
+         "api.fixtures.firstHalfStart",
+         "api.fixtures.secondHalfStart",
+         "api.fixtures.round",
+         "api.fixtures.status",
+         "api.fixtures.statusShort",
+         "api.fixtures.elapsed",
+         "api.fixtures.venue",
+         "api.fixtures.referee",
+         "api.fixtures.goalsHomeTeam",
+         "api.fixtures.goalsAwayTeam")
+
+fixtures_df$homeTeam_id <-fixtures_df_temp$api.fixtures.homeTeam$team_id
+fixtures_df$awayTeam_id <- fixtures_df_temp$api.fixtures.awayTeam$team_id
+fixtures_df$scoreHaltime <- fixtures_df_temp$api.fixtures.score$halftime
+fixtures_df$scoreFulltime <- fixtures_df_temp$api.fixtures.score$fulltime
+fixtures_df$scoreExtratime <- fixtures_df_temp$api.fixtures.score$extratime
+fixtures_df$scorePenalty <- fixtures_df_temp$api.fixtures.score$penalty
+str(fixtures_df)
+
+# alterando nomes das colunas
+colnames(fixtures_df) <- c("fixture_id",
+                           "league_id",
+                           "event_date",
+                           "event_timestamp",
+                           "firstHalfStart",
+                           "secondHalfStart",
+                           "round",
+                           "status",
+                           "statusShort",
+                           "elapsed",
+                           "venue",
+                           "referee",
+                           "goalsHomeTeam",
+                           "goalsAwayTeam",
+                           "homeTeam_id",
+                           "awayTeam_id",
+                           "scoreHaltime",
+                           "scoreFulltime",
+                           "scoreExtratime",
+                           "scorePenalty")
+
+rm(countries_api, 
+   leagues_api, 
+   leagues_df, 
+   seasons_api, 
+   teams_api, 
+   fixtures_api, 
+   fixtures_df_temp)
+```
+
+Obtendo dados das partidas. Cada execução deste trecho são 20 requisições de api. Cuidado para não utrapassar as 100 diárias que são gratuitas:
+
+```{r}
+# rodadas
+fixtures_df %>%
+  count(round)
+
+fixtures_round <- fixtures_df %>%
+  filter(round == "Regular Season - 5",
+         status == "Match Finished")
+
+# eventos ocorridos nas partidas - events
+for (fixture_id_var in fixtures_round$fixture_id) {
+  events_api <- GET(paste0("https://api-football-v1.p.rapidapi.com/v2/events/", fixture_id_var),
+                    add_headers("X-RapidAPI-Key" = rapid_api_key,
+                                "Accept" = "application/json"))
+  
+  fixture_events_df <- as.data.frame(fromJSON(httr::content(events_api, as = "text")))
+  fixture_events_df$fixture_id <- fixture_id_var
+  
+  fixture_events_df <- fixture_events_df %>%
+    select(fixture_id,
+           api.events.elapsed,
+           api.events.team_id,
+           api.events.player,
+           api.events.type,
+           api.events.detail)
+  
+  colnames(fixture_events_df) <- c("fixture_id",
+                                   "elapsed",
+                                   "team_id",
+                                   "player",
+                                   "type",
+                                   "detail")
+
+  if (exists("events_df"))
+    events_df <- rbind(events_df, fixture_events_df)
+  else
+    events_df <- fixture_events_df
+  
+  rm(fixture_events_df)
+}
+rm(fixture_id_var)
+
+str(events_df)
+
+# tipos de eventos com total de ocorrencias
+events_df %>%
+  count(type)
+
+# jodadores relacionadas para partida - lineups
+for (fixture_id_var in fixtures_round$fixture_id) {
+  lineups_api <- GET(paste0("https://api-football-v1.p.rapidapi.com/v2/lineups/", fixture_id_var), 
+                     add_headers("X-RapidAPI-Key" = rapid_api_key,
+                                 "Accept" = "application/json"))
+  
+  lineups <- fromJSON(httr::content(lineups_api, as = "text"), flatten = TRUE)
+  
+  fixture_lineup_df <- fixtures_df %>%
+    filter(fixture_id == fixture_id_var)
+
+  lineups_startXI_homeTeam <- data.frame("fixture_id" = fixture_lineup_df$fixture_id,
+                                         "team_id" = fixture_lineup_df$homeTeam_id,
+                                         "startXI" = TRUE,
+                                         "player" = lineups$api$lineUps[[1]]$startXI$player,
+                                         "number" = lineups$api$lineUps[[1]]$startXI$number)
+
+  lineups_substitutes_homeTeam <- data.frame("fixture_id" = fixture_lineup_df$fixture_id,
+                                             "team_id" = fixture_lineup_df$homeTeam_id,
+                                             "startXI" = FALSE,
+                                             "player" = lineups$api$lineUps[[1]]$substitutes$player,
+                                             "number" = lineups$api$lineUps[[1]]$substitutes$number)
+
+  lineups_startXI_awayTeam <- data.frame("fixture_id" = fixture_lineup_df$fixture_id,
+                                         "team_id" = fixture_lineup_df$awayTeam_id,
+                                         "startXI" = TRUE,
+                                         "player" = lineups$api$lineUps[[2]]$startXI$player,
+                                         "number" = lineups$api$lineUps[[2]]$startXI$number)
+
+  lineups_substitutes_awayTeam <- data.frame("fixture_id" = fixture_lineup_df$fixture_id,
+                                             "team_id" = fixture_lineup_df$awayTeam_id,
+                                             "startXI" = FALSE,
+                                             "player" = lineups$api$lineUps[[2]]$substitutes$player,
+                                             "number" = lineups$api$lineUps[[2]]$substitutes$number)
+
+  if (exists("lineups_df")) {
+    lineups_df <- rbind(lineups_df, lineups_startXI_homeTeam)
+    lineups_df <- rbind(lineups_df, lineups_substitutes_homeTeam)
+    lineups_df <- rbind(lineups_df, lineups_startXI_awayTeam)
+    lineups_df <- rbind(lineups_df, lineups_substitutes_awayTeam)
+  } else {
+    lineups_df <- lineups_startXI_homeTeam
+    lineups_df <- rbind(lineups_df, lineups_substitutes_homeTeam)
+    lineups_df <- rbind(lineups_df, lineups_startXI_awayTeam)
+    lineups_df <- rbind(lineups_df, lineups_substitutes_awayTeam)
+  }
+}
+rm(fixture_id_var)
+
+str(lineups_df)
+
+rm(events_api,
+   lineups_api,
+   lineups, 
+   fixture_lineup_df, 
+   lineups_startXI_homeTeam, 
+   lineups_substitutes_homeTeam, 
+   lineups_startXI_awayTeam, 
+   lineups_substitutes_awayTeam,
+   fixtures_round)
+```
+
+Estatísticas das partidas:
+
+```{r}
+fixtures_round <- fixtures_df %>%
+  filter(round == "Regular Season - 3",
+         status == "Match Finished")
+
+for (fixture_id_var in fixtures_round$fixture_id) {
+  # estatisticas das partidas - fixtures
+  statistics_api <- GET(paste0("https://api-football-v1.p.rapidapi.com/v2/statistics/fixture/", fixture_id_var),
+                    #GET("https://api-football-v1.p.rapidapi.com/v2/statistics/fixture/328002",
+                        add_headers("X-RapidAPI-Key" = rapid_api_key,
+                                    "Accept" = "application/json"))
+  #httr::content(statistics_api, as = "parsed")
+  fixture_id_var_test <- fixture_id_var
+  statistics_l <- fromJSON(httr::content(statistics_api, as = "text"), flatten = TRUE)
+  statistics_l <- statistics_l$api$statistics
+  
+  fixture_statistics_df <- data.frame("fixture_id" = fixture_id_var,
+                                      "shots_on_goal_home" = ifelse(is.null(statistics_l$`Shots on Goal`$home),
+                                                                "0", statistics_l$`Shots on Goal`$home),
+                                      "shots_on_goal_away" = ifelse(is.null(statistics_l$`Shots on Goal`$away),
+                                                                "0", statistics_l$`Shots on Goal`$away),
+                                      "shots_off_goal_home" = ifelse(is.null(statistics_l$`Shots off Goal`$home),
+                                                                "0", statistics_l$`Shots off Goal`$home),
+                                      "shots_off_goal_away" = ifelse(is.null(statistics_l$`Shots off Goal`$away),
+                                                                "0", statistics_l$`Shots off Goal`$away),
+                                      "total_shots_home" = ifelse(is.null(statistics_l$`Total Shots`$home),
+                                                                "0", statistics_l$`Total Shots`$home),
+                                      "total_shots_away" = ifelse(is.null(statistics_l$`Total Shots`$away),
+                                                                "0", statistics_l$`Total Shots`$away),
+                                      "blocked_shots_home" = ifelse(is.null(statistics_l$`Blocked Shots`$home),
+                                                                "0", statistics_l$`Blocked Shots`$home),
+                                      "blocked_shots_away" = ifelse(is.null(statistics_l$`Blocked Shots`$away),
+                                                                "0", statistics_l$`Blocked Shots`$away),
+                                      "shots_insidebox_home" = ifelse(is.null(statistics_l$`Shots insidebox`$home),
+                                                                "0", statistics_l$`Shots insidebox`$home),
+                                      "shots_insidebox_away" = ifelse(is.null(statistics_l$`Shots insidebox`$away),
+                                                                "0", statistics_l$`Shots insidebox`$away),
+                                      "shots_outsidebox_home" = ifelse(is.null(statistics_l$`Shots outsidebox`$home),
+                                                                "0", statistics_l$`Shots outsidebox`$home),
+                                      "shots_outsidebox_away" = ifelse(is.null(statistics_l$`Shots outsidebox`$away),
+                                                                "0", statistics_l$`Shots outsidebox`$away),
+                                      "fouls_home" = ifelse(is.null(statistics_l$Fouls$home),
+                                                                "0", statistics_l$Fouls$home),
+                                      "fouls_away" = ifelse(is.null(statistics_l$Fouls$away),
+                                                                "0", statistics_l$Fouls$away),
+                                      "corner_kicks_home" = ifelse(is.null(statistics_l$`Corner Kicks`$home),
+                                                                "0", statistics_l$`Corner Kicks`$home),
+                                      "corner_kicks_away" = ifelse(is.null(statistics_l$`Corner Kicks`$away),
+                                                                "0", statistics_l$`Corner Kicks`$away),
+                                      "offsides_home" = ifelse(is.null(statistics_l$Offsides$home),
+                                                                "0", statistics_l$Offsides$home),
+                                      "offsides_away" = ifelse(is.null(statistics_l$Offsides$away),
+                                                                "0", statistics_l$Offsides$away),
+                                      "ball_possession_home" = ifelse(is.null(statistics_l$`Ball Possession`$home),
+                                                                "0", statistics_l$`Ball Possession`$home),
+                                      "ball_possession_away" = ifelse(is.null(statistics_l$`Ball Possession`$away),
+                                                                "0", statistics_l$`Ball Possession`$away),
+                                      "yellow_cards_home" = ifelse(is.null(statistics_l$`Yellow Cards`$home),
+                                                                "0", statistics_l$`Yellow Cards`$home),
+                                      "yellow_cards_away" = ifelse(is.null(statistics_l$`Yellow Cards`$away),
+                                                                "0", statistics_l$`Yellow Cards`$away),
+                                      "red_cards_home" = ifelse(is.null(statistics_l$`Red Cards`$home), 
+                                                                "0", statistics_l$`Red Cards`$home),
+                                      "red_cards_away" = ifelse(is.null(statistics_l$`Red Cards`$away), 
+                                                                "0", statistics_l$`Red Cards`$away),
+                                      "goalkeeper_saves_home" = ifelse(is.null(statistics_l$`Goalkeeper Saves`$home),
+                                                                "0", statistics_l$`Goalkeeper Saves`$home),
+                                      "goalkeeper_saves_away" = ifelse(is.null(statistics_l$`Goalkeeper Saves`$away),
+                                                                "0", statistics_l$`Goalkeeper Saves`$away),
+                                      "total_passes_home" = ifelse(is.null(statistics_l$`Total passes`$home),
+                                                                "0", statistics_l$`Total passes`$home),
+                                      "total_passes_away" = ifelse(is.null(statistics_l$`Total passes`$away),
+                                                                "0", statistics_l$`Total passes`$away),
+                                      "passes_accurate_home" = ifelse(is.null(statistics_l$`Passes accurate`$home),
+                                                                "0", statistics_l$`Passes accurate`$home),
+                                      "passes_accurate_away" = ifelse(is.null(statistics_l$`Passes accurate`$away),
+                                                                "0", statistics_l$`Passes accurate`$away),
+                                      "passes_percent_home" = ifelse(is.null(statistics_l$`Passes %`$home),
+                                                                NA, statistics_l$`Passes %`$home),
+                                      "passes_percent_away" = ifelse(is.null(statistics_l$`Passes %`$away),
+                                                                NA, statistics_l$`Passes %`$away),
+                                      stringsAsFactors = FALSE)
+  
+  if (exists("statistics_df"))
+    statistics_df <- rbind(statistics_df, fixture_statistics_df)
+  else
+    statistics_df <- fixture_statistics_df
+}
+rm(fixtures_round, 
+   fixture_id_var, 
+   statistics_api, 
+   statistics_l, 
+   fixture_statistics_df) 
+```
+
+Estatísticas do jogadores:
+
+```{r}
+fixtures_round <- fixtures_df %>%
+  filter(round == "Regular Season - 1",
+         status == "Match Finished")
+
+for (fixture_id_var in fixtures_round$fixture_id) {
+  fixture_id_var_test <- fixture_id_var
+
+  # estatisticas dos jogadores na partidas - fixtures
+  statistics_players_api <- GET(paste0("https://api-football-v1.p.rapidapi.com/v2/players/fixture/", fixture_id_var),
+                            #GET("https://api-football-v1.p.rapidapi.com/v2/players/fixture/328020",
+                                add_headers("X-RapidAPI-Key" = rapid_api_key,
+                                            "Accept" = "application/json"))
+  
+  #httr::content(statistics_players_api, as = "parsed")
+  statistics_players_l <- fromJSON(httr::content(statistics_players_api, as = "text"), flatten = TRUE)
+  fixture_statistics_players_df <- as.data.frame(statistics_players_l, stringsAsFactors = FALSE)
+
+  fixture_statistics_players_df <- fixture_statistics_players_df %>%
+    select(-api.results)
+  
+  colnames(fixture_statistics_players_df) <- c("fixture_id",
+                                       "updateAt",
+                                       "player_id",
+                                       "player_name",
+                                       "team_id",
+                                       "team_name",
+                                       "number",
+                                       "position",
+                                       "rating",
+                                       "minutes_played",
+                                       "captain",
+                                       "substitute",
+                                       "offsides",
+                                       "shots_total",
+                                       "shots_on",
+                                       "goals_total",
+                                       "goals_conceded",
+                                       "goals_assists",
+                                       "goals_saves",
+                                       "passes_total",
+                                       "passes_key",
+                                       "passes_accuracy",
+                                       "tackles_total",
+                                       "tackles_blocks",
+                                       "tackles_interceptions",
+                                       "duels_total",
+                                       "duels_won",
+                                       "dribbles_attempts",
+                                       "dribbles_success",
+                                       "dribbles_past",
+                                       "fouls_drawn",
+                                       "fouls_committed",
+                                       "cards_yellow",
+                                       "cards_red",
+                                       "penalty_won",
+                                       "penalty_commited",
+                                       "penalty_success",
+                                       "penalty_missed",
+                                       "penalty_saved")
+  
+  if (exists("statistics_players_df"))
+    statistics_players_df <- rbind(statistics_players_df, fixture_statistics_players_df)
+  else
+    statistics_players_df <- fixture_statistics_players_df
+}
+rm(fixtures_round, 
+   fixture_id_var, 
+   statistics_players_api, 
+   statistics_players_l,
+   fixture_statistics_players_df)
+```
+
+##Gravando dados em arquivos csv:
+
+```{r}
+write.csv(fixtures_df, file = "datasets/fixtures.csv", row.names = FALSE)
+write.csv(teams_df, file = "datasets/teams.csv", row.names = FALSE)
+write.csv(events_df, file = "datasets/events.csv", row.names = FALSE)
+write.csv(lineups_df, file = "datasets/lineups.csv", row.names = FALSE)
+write.csv(statistics_df, file = "datasets/statistics.csv", row.names = FALSE)
+write.csv(statistics_players_df, file = "datasets/statistics_players.csv", row.names = FALSE)
+```
+
+#Análises
+
+Quem jogou mais?
+```{r}
+str(lineups_df)
+str(teams_df)
+
+# quem mais iniciou como titular por time?
+quem_jogou_mais <- lineups_df %>%
+  inner_join(teams_df) %>%
+  filter(startXI == TRUE) %>%
+  mutate(team = name) %>%
+  group_by(team) %>%
+  count(player, sort = TRUE) %>%
+  ungroup()
+
+quem_jogou_mais %>%
+  group_by(team) %>%
+  top_n(10) %>%
+  ungroup() %>%
+  mutate(player = reorder_within(player, n, team)) %>%
+  ggplot(aes(player, n, fill = team)) +
+    geom_col(show.legend = FALSE) +
+    facet_wrap(~team, ncol = 4, scales = "free_y") +
+    coord_flip() +
+    scale_x_reordered() +
+    scale_y_continuous(breaks = seq(0, 38), expand = c(0,0)) +
+    labs(y = "Número de jogos",
+         x = NULL,
+         title = "Quem jogou mais?",
+         subtitle = "Campeonato Brasileiro")
+
+```

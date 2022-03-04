@@ -1,0 +1,381 @@
+"fixture_id","league_id","event_date","event_timestamp","firstHalfStart","secondHalfStart","round","status","statusShort","elapsed","venue","referee","goalsHomeTeam","goalsAwayTeam","homeTeam_id","awayTeam_id","scoreHaltime","scoreFulltime","scoreExtratime","scorePenalty"
+327992,1396,"2020-08-08T22:30:00+00:00",1596925800,1596925800,1596929400,"Regular Season - 1","Match Finished","FT",90,"Estádio Major Antônio Couto Pereira","Bruno Arleu de Araujo",0,1,147,119,"0-0","0-1",NA,NA
+327991,1396,"2020-08-09T00:00:00+00:00",1596931200,1596931200,1596934800,"Regular Season - 1","Match Finished","FT",90,"Estádio Adelmar da Costa Carvalho","Edina Alves Batista",3,2,123,129,"3-1","3-2",NA,NA
+327993,1396,"2020-08-09T00:00:00+00:00",1596931200,1596931200,1596934800,"Regular Season - 1","Match Finished","FT",90,"Estádio Governador Plácido Aderaldo Castelo","Braulio da Silva Machado",0,2,154,134,"0-2","0-2",NA,NA
+327985,1396,"2020-08-09T19:00:00+00:00",1596999600,1596999600,1597003200,"Regular Season - 1","Match Finished","FT",90,"Estadio Jornalista Mário Filho","Raphael Claus",0,1,127,1062,"0-1","0-1",NA,NA
+327988,1396,"2020-08-09T19:00:00+00:00",1596999600,1596999600,1597003200,"Regular Season - 1","Match Finished","FT",90,"Estádio Urbano Caldeira","Ricardo Marques Ribeiro",1,1,128,794,"0-0","1-1",NA,NA
+327994,1396,"2020-08-09T19:00:00+00:00",1596999600,NA,NA,"Regular Season - 1","Match Postponed","PST",0,"Estádio de Hailé Pinheiro","Caio Max Augusto Vieira",NA,NA,151,126,NA,NA,NA,NA
+327987,1396,"2020-08-09T22:45:00+00:00",1597013100,NA,NA,"Regular Season - 1","Match Postponed","PST",0,"Allianz Parque","Anderson Daronco",NA,NA,121,133,NA,NA,NA,NA
+327990,1396,"2020-08-10T00:00:00+00:00",1597017600,1597017600,1597021200,"Regular Season - 1","Match Finished","FT",90,"Arena do Grêmio","Wilton Pereira Sampaio",1,0,130,124,"1-0","1-0",NA,NA
+327998,1396,"2020-08-12T22:15:00+00:00",1597270500,1597270500,1597274100,"Regular Season - 2","Match Finished","FT",90,"Estádio Nabi Abi Chedid","André Castro",1,1,794,120,"1-0","1-1",NA,NA
+327999,1396,"2020-08-12T22:15:00+00:00",1597270500,1597270500,1597274100,"Regular Season - 2","Match Finished","FT",90,"Estádio Governador Magalhães Pinto","Wagner do Nascimento Magalhaes",3,2,1062,131,"0-2","3-2",NA,NA
+328002,1396,"2020-08-12T22:15:00+00:00",1597270500,1597270500,1597274100,"Regular Season - 2","Match Finished","FT",90,"Arena da Baixada","Diego Pombo Lopez",2,1,134,151,"1-1","2-1",NA,NA
+328001,1396,"2020-08-12T23:30:00+00:00",1597275000,1597275000,1597278600,"Regular Season - 2","Match Finished","FT",90,"Estádio Governador Roberto Santos","Flavio Rodrigues De Souza",1,0,118,147,"1-0","1-0",NA,NA
+328004,1396,"2020-08-12T23:30:00+00:00",1597275000,1597275000,1597278600,"Regular Season - 2","Match Finished","FT",90,"Estádio Olímpico Pedro Ludovico Teixeira","Luiz Flavio De Oliveira",3,0,144,127,"2-0","3-0",NA,NA
+327995,1396,"2020-08-13T00:30:00+00:00",1597278600,1597278600,1597282200,"Regular Season - 2","Match Finished","FT",90,"Estadio Jornalista Mário Filho","Rafael Traci",1,1,124,121,"1-1","1-1",NA,NA
+328003,1396,"2020-08-13T00:30:00+00:00",1597278600,1597278600,1597282200,"Regular Season - 2","Match Finished","FT",90,"Estádio Governador Plácido Aderaldo Castelo","Caio Max Augusto Vieira",1,1,129,130,"1-0","1-1",NA,NA
+327997,1396,"2020-08-13T22:15:00+00:00",1597356900,1597356900,1597360500,"Regular Season - 2","Match Finished","FT",90,"Estádio Cícero Pompeu de Toledo","Leandro Vuaden",1,0,126,154,"1-0","1-0",NA,NA
+328000,1396,"2020-08-13T22:30:00+00:00",1597357800,1597357800,1597361400,"Regular Season - 2","Match Finished","FT",90,"Estádio José Pinheiro Borda","Marcelo de Lima Henrique",2,0,119,128,"0-0","2-0",NA,NA
+327996,1396,"2020-08-13T23:00:00+00:00",1597359600,1597359600,1597363200,"Regular Season - 2","Match Finished","FT",90,"Estádio Club de Regatas Vasco da Gama","Rodolpho Toski Marques",2,0,133,123,"2-0","2-0",NA,NA
+328012,1396,"2020-08-15T22:30:00+00:00",1597530600,1597530600,1597534200,"Regular Season - 3","Match Finished","FT",90,"Estádio Major Antônio Couto Pereira","Rodrigo D'Alonso Ferreira",0,1,147,127,"0-1","0-1",NA,NA
+328010,1396,"2020-08-16T00:00:00+00:00",1597536000,1597536000,1597539600,"Regular Season - 3","Match Finished","FT",90,"Arena do Grêmio","Bruno Arleu de Araujo",0,0,130,131,"0-0","0-0",NA,NA
+328007,1396,"2020-08-16T00:30:00+00:00",1597537800,1597537800,1597541400,"Regular Season - 3","Match Finished","FT",90,"Allianz Parque","Paulo Roberto Alves Júnior",1,1,121,151,"1-1","1-1",NA,NA
+328009,1396,"2020-08-16T14:00:00+00:00",1597586400,1597586400,1597590000,"Regular Season - 3","Match Finished","FT",90,"Estádio Governador Magalhães Pinto","Savio Pereira",2,0,1062,129,"0-0","2-0",NA,NA
+328006,1396,"2020-08-16T19:00:00+00:00",1597604400,1597604400,1597608000,"Regular Season - 3","Match Finished","FT",90,"Estádio Club de Regatas Vasco da Gama","Wilton Pereira Sampaio",2,1,133,126,"0-0","2-1",NA,NA
+328011,1396,"2020-08-16T19:00:00+00:00",1597604400,1597604400,1597608000,"Regular Season - 3","Match Finished","FT",90,"Estádio Governador Roberto Santos","Felipe Fernandes de Lima",2,1,118,794,"1-0","2-1",NA,NA
+328005,1396,"2020-08-16T21:00:00+00:00",1597611600,1597611600,1597615200,"Regular Season - 3","Match Finished","FT",90,"Estadio Jornalista Mário Filho","Raphael Claus",2,1,124,119,"1-1","2-1",NA,NA
+328013,1396,"2020-08-16T22:30:00+00:00",1597617000,1597617000,1597620600,"Regular Season - 3","Match Finished","FT",90,"Estádio Governador Plácido Aderaldo Castelo","Marielson Alves Silva",0,0,154,120,"0-0","0-0",NA,NA
+328008,1396,"2020-08-16T22:45:00+00:00",1597617900,1597617900,1597621500,"Regular Season - 3","Match Finished","FT",90,"Estádio Urbano Caldeira","Anderson Daronco",3,1,128,134,"2-0","3-1",NA,NA
+328014,1396,"2020-08-17T00:00:00+00:00",1597622400,1597622400,1597626000,"Regular Season - 3","Match Finished","FT",90,"Estádio Olímpico Pedro Ludovico Teixeira","Grazianni Maciel Rocha",1,1,144,123,"1-0","1-1",NA,NA
+328015,1396,"2020-08-19T22:15:00+00:00",1597875300,1597875300,1597878900,"Regular Season - 4","Match Finished","FT",90,"Estadio Jornalista Mário Filho","Rafael Traci",1,1,127,130,"0-1","1-1",NA,NA
+328018,1396,"2020-08-19T22:15:00+00:00",1597875300,1597875300,1597878900,"Regular Season - 4","Match Finished","FT",90,"Estádio Nabi Abi Chedid","Jean Pierre Goncalves Lima",2,1,794,124,"1-1","2-1",NA,NA
+328022,1396,"2020-08-19T22:30:00+00:00",1597876200,1597876200,1597879800,"Regular Season - 4","Match Finished","FT",90,"Arena da Baixada","Caio Max Augusto Vieira",0,1,134,121,"0-0","0-1",NA,NA
+328020,1396,"2020-08-19T23:30:00+00:00",1597879800,1597879800,1597883400,"Regular Season - 4","Match Finished","FT",90,"Estádio José Pinheiro Borda","Wagner Reway",3,0,119,144,"0-0","3-0",NA,NA
+328024,1396,"2020-08-19T23:30:00+00:00",1597879800,1597879800,1597883400,"Regular Season - 4","Match Finished","FT",90,"Estádio de Hailé Pinheiro","Dyorgines José Padovani Andrade",1,3,151,154,"0-1","1-3",NA,NA
+328016,1396,"2020-08-20T00:30:00+00:00",1597883400,1597883400,1597887000,"Regular Season - 4","Match Finished","FT",90,"Estádio Nilton Santos","Flavio Rodrigues De Souza",2,1,120,1062,"1-0","2-1",NA,NA
+328019,1396,"2020-08-20T00:30:00+00:00",1597883400,1597883400,1597887000,"Regular Season - 4","Match Finished","FT",90,"Arena Corinthians","Braulio da Silva Machado",3,1,131,147,"1-1","3-1",NA,NA
+328021,1396,"2020-08-20T22:15:00+00:00",1597961700,1597961700,1597965300,"Regular Season - 4","Match Finished","FT",90,"Estádio Adelmar da Costa Carvalho","Jose Mendonca da Silva Junior, Brazil",0,1,123,128,"0-0","0-1",NA,NA
+328017,1396,"2020-08-20T23:00:00+00:00",1597964400,1597964400,1597968000,"Regular Season - 4","Match Finished","FT",90,"Morumbí","Rodrigo Carvalhaes de Miranda, Brazil",1,1,126,118,"0-1","1-1",NA,NA
+328023,1396,"2020-08-20T23:00:00+00:00",1597964400,1597964400,1597968000,"Regular Season - 4","Match Finished","FT",90,"Estádio Governador Plácido Aderaldo Castelo","Thiago Duarte Peixoto, Brazil",0,3,129,133,"0-0","0-3",NA,NA
+328032,1396,"2020-08-22T19:00:00+00:00",1598122800,NA,NA,"Regular Season - 5","Not Started","NS",0,"Arena da Baixada","Daniel Nobre Bins",NA,NA,134,124,NA,NA,NA,NA
+328030,1396,"2020-08-22T22:00:00+00:00",1598133600,NA,NA,"Regular Season - 5","Not Started","NS",0,"Estádio José Pinheiro Borda","Luiz Flavio De Oliveira",NA,NA,119,1062,NA,NA,NA,NA
+328034,1396,"2020-08-23T00:00:00+00:00",1598140800,NA,NA,"Regular Season - 5","Not Started","NS",0,"Estádio de Hailé Pinheiro","Wilton Pereira Sampaio",NA,NA,151,144,NA,NA,NA,NA
+328025,1396,"2020-08-23T14:00:00+00:00",1598191200,NA,NA,"Regular Season - 5","Not Started","NS",0,"Estadio Jornalista Mário Filho","Leandro Vuaden",NA,NA,127,120,NA,NA,NA,NA
+328026,1396,"2020-08-23T19:00:00+00:00",1598209200,NA,NA,"Regular Season - 5","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama","Savio Pereira",NA,NA,133,130,NA,NA,NA,NA
+328027,1396,"2020-08-23T19:00:00+00:00",1598209200,NA,NA,"Regular Season - 5","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo","Vinicius Gonçalves Dias Araujo",NA,NA,121,128,NA,NA,NA,NA
+328028,1396,"2020-08-23T19:00:00+00:00",1598209200,NA,NA,"Regular Season - 5","Not Started","NS",0,"Estádio Nabi Abi Chedid","Gilberto Rodrigues Castro Junior",NA,NA,794,147,NA,NA,NA,NA
+328031,1396,"2020-08-23T22:00:00+00:00",1598220000,NA,NA,"Regular Season - 5","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho","Rodrigo D'Alonso Ferreira",NA,NA,123,126,NA,NA,NA,NA
+328033,1396,"2020-08-23T23:00:00+00:00",1598223600,NA,NA,"Regular Season - 5","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo","Wagner do Nascimento Magalhaes",NA,NA,129,118,NA,NA,NA,NA
+328029,1396,"2020-08-27T00:30:00+00:00",1598488200,NA,NA,"Regular Season - 5","Not Started","NS",0,"Arena Corinthians","Rodolpho Toski Marques",NA,NA,131,154,NA,NA,NA,NA
+328036,1396,"2020-08-29T19:00:00+00:00",1598727600,NA,NA,"Regular Season - 6","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,119,NA,NA,NA,NA
+328039,1396,"2020-08-29T19:00:00+00:00",1598727600,NA,NA,"Regular Season - 6","Match Postponed","PST",0,"Estádio Governador Magalhães Pinto",NA,NA,NA,1062,134,NA,NA,NA,NA
+328035,1396,"2020-08-29T22:00:00+00:00",1598738400,NA,NA,"Regular Season - 6","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,133,NA,NA,NA,NA
+328041,1396,"2020-08-29T22:00:00+00:00",1598738400,NA,NA,"Regular Season - 6","Not Started","NS",0,"Estádio Governador Roberto Santos",NA,NA,NA,118,121,NA,NA,NA,NA
+328043,1396,"2020-08-30T00:00:00+00:00",1598745600,NA,NA,"Regular Season - 6","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,154,794,NA,NA,NA,NA
+328037,1396,"2020-08-30T14:00:00+00:00",1598796000,NA,NA,"Regular Season - 6","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,131,NA,NA,NA,NA
+328038,1396,"2020-08-30T19:00:00+00:00",1598814000,NA,NA,"Regular Season - 6","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,127,NA,NA,NA,NA
+328042,1396,"2020-08-30T19:00:00+00:00",1598814000,NA,NA,"Regular Season - 6","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,123,NA,NA,NA,NA
+328044,1396,"2020-08-30T21:00:00+00:00",1598821200,NA,NA,"Regular Season - 6","Not Started","NS",0,"Estádio Olímpico Pedro Ludovico Teixeira",NA,NA,NA,144,129,NA,NA,NA,NA
+328040,1396,"2020-08-30T22:00:00+00:00",1598824800,NA,NA,"Regular Season - 6","Match Postponed","PST",0,"Arena do Grêmio",NA,NA,NA,130,151,NA,NA,NA,NA
+328053,1396,"2020-09-02T22:15:00+00:00",1599084900,NA,NA,"Regular Season - 7","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,129,154,NA,NA,NA,NA
+328054,1396,"2020-09-02T22:15:00+00:00",1599084900,NA,NA,"Regular Season - 7","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,151,131,NA,NA,NA,NA
+328045,1396,"2020-09-02T22:30:00+00:00",1599085800,NA,NA,"Regular Season - 7","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,144,NA,NA,NA,NA
+328046,1396,"2020-09-02T23:30:00+00:00",1599089400,NA,NA,"Regular Season - 7","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,147,NA,NA,NA,NA
+328052,1396,"2020-09-02T23:30:00+00:00",1599089400,NA,NA,"Regular Season - 7","Not Started","NS",0,"Arena da Baixada",NA,NA,NA,134,794,NA,NA,NA,NA
+328047,1396,"2020-09-03T00:30:00+00:00",1599093000,NA,NA,"Regular Season - 7","Not Started","NS",0,"Allianz Parque",NA,NA,NA,121,119,NA,NA,NA,NA
+328048,1396,"2020-09-03T00:30:00+00:00",1599093000,NA,NA,"Regular Season - 7","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,133,NA,NA,NA,NA
+328050,1396,"2020-09-03T22:00:00+00:00",1599170400,NA,NA,"Regular Season - 7","Not Started","NS",0,"Arena do Grêmio",NA,NA,NA,130,123,NA,NA,NA,NA
+328051,1396,"2020-09-03T22:15:00+00:00",1599171300,NA,NA,"Regular Season - 7","Not Started","NS",0,"Estádio Governador Roberto Santos",NA,NA,NA,118,127,NA,NA,NA,NA
+328049,1396,"2020-09-03T23:00:00+00:00",1599174000,NA,NA,"Regular Season - 7","Not Started","NS",0,"Estádio Raimundo Sampaio",NA,NA,NA,1062,126,NA,NA,NA,NA
+328056,1396,"2020-09-05T22:00:00+00:00",1599343200,NA,NA,"Regular Season - 8","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama",NA,NA,NA,133,134,NA,NA,NA,NA
+328059,1396,"2020-09-05T22:00:00+00:00",1599343200,NA,NA,"Regular Season - 8","Not Started","NS",0,"Arena Corinthians",NA,NA,NA,131,120,NA,NA,NA,NA
+328063,1396,"2020-09-06T00:30:00+00:00",1599352200,NA,NA,"Regular Season - 8","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,129,128,NA,NA,NA,NA
+328058,1396,"2020-09-06T14:00:00+00:00",1599400800,NA,NA,"Regular Season - 8","Not Started","NS",0,"Estádio Nabi Abi Chedid",NA,NA,NA,794,121,NA,NA,NA,NA
+328057,1396,"2020-09-06T19:00:00+00:00",1599418800,NA,NA,"Regular Season - 8","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,124,NA,NA,NA,NA
+328060,1396,"2020-09-06T19:00:00+00:00",1599418800,NA,NA,"Regular Season - 8","Not Started","NS",0,"Estádio José Pinheiro Borda",NA,NA,NA,119,118,NA,NA,NA,NA
+328055,1396,"2020-09-06T21:00:00+00:00",1599426000,NA,NA,"Regular Season - 8","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,127,154,NA,NA,NA,NA
+328064,1396,"2020-09-06T22:00:00+00:00",1599429600,NA,NA,"Regular Season - 8","Not Started","NS",0,"Estádio Olímpico Pedro Ludovico Teixeira",NA,NA,NA,144,130,NA,NA,NA,NA
+328061,1396,"2020-09-06T23:30:00+00:00",1599435000,NA,NA,"Regular Season - 8","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho",NA,NA,NA,123,151,NA,NA,NA,NA
+328062,1396,"2020-09-06T23:30:00+00:00",1599435000,NA,NA,"Regular Season - 8","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,1062,NA,NA,NA,NA
+328074,1396,"2020-09-09T21:00:00+00:00",1599685200,NA,NA,"Regular Season - 9","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,151,147,NA,NA,NA,NA
+328070,1396,"2020-09-09T22:15:00+00:00",1599689700,NA,NA,"Regular Season - 9","Not Started","NS",0,"Estádio José Pinheiro Borda",NA,NA,NA,119,129,NA,NA,NA,NA
+328067,1396,"2020-09-09T22:15:00+00:00",1599689700,NA,NA,"Regular Season - 9","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,794,NA,NA,NA,NA
+328072,1396,"2020-09-09T22:30:00+00:00",1599690600,NA,NA,"Regular Season - 9","Not Started","NS",0,"Arena da Baixada",NA,NA,NA,134,120,NA,NA,NA,NA
+328065,1396,"2020-09-10T00:30:00+00:00",1599697800,NA,NA,"Regular Season - 9","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,127,NA,NA,NA,NA
+328068,1396,"2020-09-10T00:30:00+00:00",1599697800,NA,NA,"Regular Season - 9","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,1062,NA,NA,NA,NA
+328069,1396,"2020-09-10T22:15:00+00:00",1599776100,NA,NA,"Regular Season - 9","Not Started","NS",0,"Arena Corinthians",NA,NA,NA,131,121,NA,NA,NA,NA
+328071,1396,"2020-09-10T22:15:00+00:00",1599776100,NA,NA,"Regular Season - 9","Not Started","NS",0,"Estádio Governador Roberto Santos",NA,NA,NA,118,130,NA,NA,NA,NA
+328073,1396,"2020-09-10T23:00:00+00:00",1599778800,NA,NA,"Regular Season - 9","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,154,123,NA,NA,NA,NA
+328066,1396,"2020-09-11T00:00:00+00:00",1599782400,NA,NA,"Regular Season - 9","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama",NA,NA,NA,133,144,NA,NA,NA,NA
+328078,1396,"2020-09-12T19:00:00+00:00",1599937200,NA,NA,"Regular Season - 10","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,126,NA,NA,NA,NA
+328083,1396,"2020-09-12T21:00:00+00:00",1599944400,NA,NA,"Regular Season - 10","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,129,127,NA,NA,NA,NA
+328082,1396,"2020-09-13T00:00:00+00:00",1599955200,NA,NA,"Regular Season - 10","Not Started","NS",0,"Arena da Baixada",NA,NA,NA,134,147,NA,NA,NA,NA
+328079,1396,"2020-09-13T14:00:00+00:00",1600005600,NA,NA,"Regular Season - 10","Not Started","NS",0,"Estádio Raimundo Sampaio",NA,NA,NA,1062,794,NA,NA,NA,NA
+328075,1396,"2020-09-13T19:00:00+00:00",1600023600,NA,NA,"Regular Season - 10","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,131,NA,NA,NA,NA
+328080,1396,"2020-09-13T19:00:00+00:00",1600023600,NA,NA,"Regular Season - 10","Not Started","NS",0,"Arena do Grêmio",NA,NA,NA,130,154,NA,NA,NA,NA
+328084,1396,"2020-09-13T21:00:00+00:00",1600030800,NA,NA,"Regular Season - 10","Not Started","NS",0,"Serra Dourada",NA,NA,NA,151,119,NA,NA,NA,NA
+328076,1396,"2020-09-13T22:00:00+00:00",1600034400,NA,NA,"Regular Season - 10","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,133,NA,NA,NA,NA
+328077,1396,"2020-09-13T22:45:00+00:00",1600037100,NA,NA,"Regular Season - 10","Not Started","NS",0,"Allianz Parque",NA,NA,NA,121,123,NA,NA,NA,NA
+328081,1396,"2020-09-14T23:00:00+00:00",1600124400,NA,NA,"Regular Season - 10","Not Started","NS",0,"Estádio Governador Roberto Santos",NA,NA,NA,118,144,NA,NA,NA,NA
+328085,1396,"2020-09-20T19:00:00+00:00",1600628400,NA,NA,"Regular Season - 11","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,127,151,NA,NA,NA,NA
+328086,1396,"2020-09-20T19:00:00+00:00",1600628400,NA,NA,"Regular Season - 11","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,128,NA,NA,NA,NA
+328087,1396,"2020-09-20T19:00:00+00:00",1600628400,NA,NA,"Regular Season - 11","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,134,NA,NA,NA,NA
+328088,1396,"2020-09-20T19:00:00+00:00",1600628400,NA,NA,"Regular Season - 11","Not Started","NS",0,"Estádio Nabi Abi Chedid",NA,NA,NA,794,129,NA,NA,NA,NA
+328089,1396,"2020-09-20T19:00:00+00:00",1600628400,NA,NA,"Regular Season - 11","Not Started","NS",0,"Arena Corinthians",NA,NA,NA,131,118,NA,NA,NA,NA
+328090,1396,"2020-09-20T19:00:00+00:00",1600628400,NA,NA,"Regular Season - 11","Not Started","NS",0,"Arena do Grêmio",NA,NA,NA,130,121,NA,NA,NA,NA
+328091,1396,"2020-09-20T19:00:00+00:00",1600628400,NA,NA,"Regular Season - 11","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho",NA,NA,NA,123,124,NA,NA,NA,NA
+328092,1396,"2020-09-20T19:00:00+00:00",1600628400,NA,NA,"Regular Season - 11","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,133,NA,NA,NA,NA
+328093,1396,"2020-09-20T19:00:00+00:00",1600628400,NA,NA,"Regular Season - 11","Not Started","NS",0,"Estádio Municipal Presidente Getúlio Vargas",NA,NA,NA,154,119,NA,NA,NA,NA
+328094,1396,"2020-09-20T19:00:00+00:00",1600628400,NA,NA,"Regular Season - 11","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,144,1062,NA,NA,NA,NA
+328095,1396,"2020-09-27T19:00:00+00:00",1601233200,NA,NA,"Regular Season - 12","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,147,NA,NA,NA,NA
+328096,1396,"2020-09-27T19:00:00+00:00",1601233200,NA,NA,"Regular Season - 12","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama",NA,NA,NA,133,794,NA,NA,NA,NA
+328097,1396,"2020-09-27T19:00:00+00:00",1601233200,NA,NA,"Regular Season - 12","Not Started","NS",0,"Allianz Parque",NA,NA,NA,121,127,NA,NA,NA,NA
+328098,1396,"2020-09-27T19:00:00+00:00",1601233200,NA,NA,"Regular Season - 12","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,154,NA,NA,NA,NA
+328099,1396,"2020-09-27T19:00:00+00:00",1601233200,NA,NA,"Regular Season - 12","Not Started","NS",0,"Estádio Raimundo Sampaio",NA,NA,NA,1062,130,NA,NA,NA,NA
+328100,1396,"2020-09-27T19:00:00+00:00",1601233200,NA,NA,"Regular Season - 12","Not Started","NS",0,"Estádio José Pinheiro Borda",NA,NA,NA,119,126,NA,NA,NA,NA
+328101,1396,"2020-09-27T19:00:00+00:00",1601233200,NA,NA,"Regular Season - 12","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho",NA,NA,NA,123,131,NA,NA,NA,NA
+328102,1396,"2020-09-27T19:00:00+00:00",1601233200,NA,NA,"Regular Season - 12","Not Started","NS",0,"Arena da Baixada",NA,NA,NA,134,118,NA,NA,NA,NA
+328103,1396,"2020-09-27T19:00:00+00:00",1601233200,NA,NA,"Regular Season - 12","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,129,151,NA,NA,NA,NA
+328104,1396,"2020-09-27T19:00:00+00:00",1601233200,NA,NA,"Regular Season - 12","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,144,120,NA,NA,NA,NA
+327986,1396,"2020-09-30T00:00:00+00:00",1601424000,NA,NA,"Regular Season - 1","Not Started","NS",0,"Estádio Nilton Santos","Savio Pereira",NA,NA,120,118,NA,NA,NA,NA
+327989,1396,"2020-10-01T23:00:00+00:00",1601593200,NA,NA,"Regular Season - 1","Not Started","NS",0,"Arena Corinthians","Paulo Roberto Alves Júnior",NA,NA,131,144,NA,NA,NA,NA
+328105,1396,"2020-10-04T19:00:00+00:00",1601838000,NA,NA,"Regular Season - 13","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,127,134,NA,NA,NA,NA
+328106,1396,"2020-10-04T19:00:00+00:00",1601838000,NA,NA,"Regular Season - 13","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,124,NA,NA,NA,NA
+328107,1396,"2020-10-04T19:00:00+00:00",1601838000,NA,NA,"Regular Season - 13","Not Started","NS",0,"Allianz Parque",NA,NA,NA,121,129,NA,NA,NA,NA
+328108,1396,"2020-10-04T19:00:00+00:00",1601838000,NA,NA,"Regular Season - 13","Not Started","NS",0,"Estádio Nabi Abi Chedid",NA,NA,NA,794,131,NA,NA,NA,NA
+328109,1396,"2020-10-04T19:00:00+00:00",1601838000,NA,NA,"Regular Season - 13","Not Started","NS",0,"Estádio Raimundo Sampaio",NA,NA,NA,1062,133,NA,NA,NA,NA
+328110,1396,"2020-10-04T19:00:00+00:00",1601838000,NA,NA,"Regular Season - 13","Not Started","NS",0,"Arena do Grêmio",NA,NA,NA,130,119,NA,NA,NA,NA
+328111,1396,"2020-10-04T19:00:00+00:00",1601838000,NA,NA,"Regular Season - 13","Not Started","NS",0,"Arena Fonte Nova",NA,NA,NA,118,123,NA,NA,NA,NA
+328112,1396,"2020-10-04T19:00:00+00:00",1601838000,NA,NA,"Regular Season - 13","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,126,NA,NA,NA,NA
+328113,1396,"2020-10-04T19:00:00+00:00",1601838000,NA,NA,"Regular Season - 13","Not Started","NS",0,"Estádio Municipal Presidente Getúlio Vargas",NA,NA,NA,154,144,NA,NA,NA,NA
+328114,1396,"2020-10-04T19:00:00+00:00",1601838000,NA,NA,"Regular Season - 13","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,151,128,NA,NA,NA,NA
+328115,1396,"2020-10-07T19:00:00+00:00",1602097200,NA,NA,"Regular Season - 14","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,127,123,NA,NA,NA,NA
+328116,1396,"2020-10-07T19:00:00+00:00",1602097200,NA,NA,"Regular Season - 14","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,121,NA,NA,NA,NA
+328117,1396,"2020-10-07T19:00:00+00:00",1602097200,NA,NA,"Regular Season - 14","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,144,NA,NA,NA,NA
+328118,1396,"2020-10-07T19:00:00+00:00",1602097200,NA,NA,"Regular Season - 14","Not Started","NS",0,"Estádio Nabi Abi Chedid",NA,NA,NA,794,119,NA,NA,NA,NA
+328119,1396,"2020-10-07T19:00:00+00:00",1602097200,NA,NA,"Regular Season - 14","Not Started","NS",0,"Arena Corinthians",NA,NA,NA,131,128,NA,NA,NA,NA
+328120,1396,"2020-10-07T19:00:00+00:00",1602097200,NA,NA,"Regular Season - 14","Not Started","NS",0,"Arena do Grêmio",NA,NA,NA,130,147,NA,NA,NA,NA
+328121,1396,"2020-10-07T19:00:00+00:00",1602097200,NA,NA,"Regular Season - 14","Not Started","NS",0,"Arena Fonte Nova",NA,NA,NA,118,133,NA,NA,NA,NA
+328122,1396,"2020-10-07T19:00:00+00:00",1602097200,NA,NA,"Regular Season - 14","Not Started","NS",0,"Arena da Baixada",NA,NA,NA,134,129,NA,NA,NA,NA
+328123,1396,"2020-10-07T19:00:00+00:00",1602097200,NA,NA,"Regular Season - 14","Not Started","NS",0,"Estádio Municipal Presidente Getúlio Vargas",NA,NA,NA,154,1062,NA,NA,NA,NA
+328124,1396,"2020-10-07T19:00:00+00:00",1602097200,NA,NA,"Regular Season - 14","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,151,124,NA,NA,NA,NA
+328125,1396,"2020-10-11T19:00:00+00:00",1602442800,NA,NA,"Regular Season - 15","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,118,NA,NA,NA,NA
+328126,1396,"2020-10-11T19:00:00+00:00",1602442800,NA,NA,"Regular Season - 15","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama",NA,NA,NA,133,127,NA,NA,NA,NA
+328127,1396,"2020-10-11T19:00:00+00:00",1602442800,NA,NA,"Regular Season - 15","Not Started","NS",0,"Allianz Parque",NA,NA,NA,121,126,NA,NA,NA,NA
+328128,1396,"2020-10-11T19:00:00+00:00",1602442800,NA,NA,"Regular Season - 15","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,130,NA,NA,NA,NA
+328129,1396,"2020-10-11T19:00:00+00:00",1602442800,NA,NA,"Regular Season - 15","Not Started","NS",0,"Estádio Raimundo Sampaio",NA,NA,NA,1062,151,NA,NA,NA,NA
+328130,1396,"2020-10-11T19:00:00+00:00",1602442800,NA,NA,"Regular Season - 15","Not Started","NS",0,"Estádio José Pinheiro Borda",NA,NA,NA,119,134,NA,NA,NA,NA
+328131,1396,"2020-10-11T19:00:00+00:00",1602442800,NA,NA,"Regular Season - 15","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho",NA,NA,NA,123,120,NA,NA,NA,NA
+328132,1396,"2020-10-11T19:00:00+00:00",1602442800,NA,NA,"Regular Season - 15","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,154,NA,NA,NA,NA
+328133,1396,"2020-10-11T19:00:00+00:00",1602442800,NA,NA,"Regular Season - 15","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,129,131,NA,NA,NA,NA
+328134,1396,"2020-10-11T19:00:00+00:00",1602442800,NA,NA,"Regular Season - 15","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,144,794,NA,NA,NA,NA
+328135,1396,"2020-10-14T19:00:00+00:00",1602702000,NA,NA,"Regular Season - 16","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,127,794,NA,NA,NA,NA
+328136,1396,"2020-10-14T19:00:00+00:00",1602702000,NA,NA,"Regular Season - 16","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama",NA,NA,NA,133,154,NA,NA,NA,NA
+328137,1396,"2020-10-14T19:00:00+00:00",1602702000,NA,NA,"Regular Season - 16","Not Started","NS",0,"Allianz Parque",NA,NA,NA,121,147,NA,NA,NA,NA
+328138,1396,"2020-10-14T19:00:00+00:00",1602702000,NA,NA,"Regular Season - 16","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,144,NA,NA,NA,NA
+328139,1396,"2020-10-14T19:00:00+00:00",1602702000,NA,NA,"Regular Season - 16","Not Started","NS",0,"Estádio Raimundo Sampaio",NA,NA,NA,1062,124,NA,NA,NA,NA
+328140,1396,"2020-10-14T19:00:00+00:00",1602702000,NA,NA,"Regular Season - 16","Not Started","NS",0,"Arena do Grêmio",NA,NA,NA,130,120,NA,NA,NA,NA
+328141,1396,"2020-10-14T19:00:00+00:00",1602702000,NA,NA,"Regular Season - 16","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho",NA,NA,NA,123,119,NA,NA,NA,NA
+328142,1396,"2020-10-14T19:00:00+00:00",1602702000,NA,NA,"Regular Season - 16","Not Started","NS",0,"Arena da Baixada",NA,NA,NA,134,131,NA,NA,NA,NA
+328143,1396,"2020-10-14T19:00:00+00:00",1602702000,NA,NA,"Regular Season - 16","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,129,126,NA,NA,NA,NA
+328144,1396,"2020-10-14T19:00:00+00:00",1602702000,NA,NA,"Regular Season - 16","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,151,118,NA,NA,NA,NA
+328145,1396,"2020-10-18T19:00:00+00:00",1603047600,NA,NA,"Regular Season - 17","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,129,NA,NA,NA,NA
+328146,1396,"2020-10-18T19:00:00+00:00",1603047600,NA,NA,"Regular Season - 17","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,151,NA,NA,NA,NA
+328147,1396,"2020-10-18T19:00:00+00:00",1603047600,NA,NA,"Regular Season - 17","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,130,NA,NA,NA,NA
+328148,1396,"2020-10-18T19:00:00+00:00",1603047600,NA,NA,"Regular Season - 17","Not Started","NS",0,"Estádio Nabi Abi Chedid",NA,NA,NA,794,123,NA,NA,NA,NA
+328149,1396,"2020-10-18T19:00:00+00:00",1603047600,NA,NA,"Regular Season - 17","Not Started","NS",0,"Arena Corinthians",NA,NA,NA,131,127,NA,NA,NA,NA
+328150,1396,"2020-10-18T19:00:00+00:00",1603047600,NA,NA,"Regular Season - 17","Not Started","NS",0,"Estádio José Pinheiro Borda",NA,NA,NA,119,133,NA,NA,NA,NA
+328151,1396,"2020-10-18T19:00:00+00:00",1603047600,NA,NA,"Regular Season - 17","Not Started","NS",0,"Arena Fonte Nova",NA,NA,NA,118,1062,NA,NA,NA,NA
+328152,1396,"2020-10-18T19:00:00+00:00",1603047600,NA,NA,"Regular Season - 17","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,128,NA,NA,NA,NA
+328153,1396,"2020-10-18T19:00:00+00:00",1603047600,NA,NA,"Regular Season - 17","Not Started","NS",0,"Estádio Municipal Presidente Getúlio Vargas",NA,NA,NA,154,121,NA,NA,NA,NA
+328154,1396,"2020-10-18T19:00:00+00:00",1603047600,NA,NA,"Regular Season - 17","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,144,134,NA,NA,NA,NA
+328155,1396,"2020-10-25T19:00:00+00:00",1603652400,NA,NA,"Regular Season - 18","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,128,NA,NA,NA,NA
+328156,1396,"2020-10-25T19:00:00+00:00",1603652400,NA,NA,"Regular Season - 18","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama",NA,NA,NA,133,131,NA,NA,NA,NA
+328157,1396,"2020-10-25T19:00:00+00:00",1603652400,NA,NA,"Regular Season - 18","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,120,NA,NA,NA,NA
+328158,1396,"2020-10-25T19:00:00+00:00",1603652400,NA,NA,"Regular Season - 18","Not Started","NS",0,"Estádio Nabi Abi Chedid",NA,NA,NA,794,151,NA,NA,NA,NA
+328159,1396,"2020-10-25T19:00:00+00:00",1603652400,NA,NA,"Regular Season - 18","Not Started","NS",0,"Estádio Raimundo Sampaio",NA,NA,NA,1062,123,NA,NA,NA,NA
+328160,1396,"2020-10-25T19:00:00+00:00",1603652400,NA,NA,"Regular Season - 18","Not Started","NS",0,"Estádio José Pinheiro Borda",NA,NA,NA,119,127,NA,NA,NA,NA
+328161,1396,"2020-10-25T19:00:00+00:00",1603652400,NA,NA,"Regular Season - 18","Not Started","NS",0,"Arena Fonte Nova",NA,NA,NA,118,154,NA,NA,NA,NA
+328162,1396,"2020-10-25T19:00:00+00:00",1603652400,NA,NA,"Regular Season - 18","Not Started","NS",0,"Arena da Baixada",NA,NA,NA,134,130,NA,NA,NA,NA
+328163,1396,"2020-10-25T19:00:00+00:00",1603652400,NA,NA,"Regular Season - 18","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,129,147,NA,NA,NA,NA
+328164,1396,"2020-10-25T19:00:00+00:00",1603652400,NA,NA,"Regular Season - 18","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,144,121,NA,NA,NA,NA
+328165,1396,"2020-11-01T20:00:00+00:00",1604260800,NA,NA,"Regular Season - 19","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,127,126,NA,NA,NA,NA
+328166,1396,"2020-11-01T20:00:00+00:00",1604260800,NA,NA,"Regular Season - 19","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,129,NA,NA,NA,NA
+328167,1396,"2020-11-01T20:00:00+00:00",1604260800,NA,NA,"Regular Season - 19","Not Started","NS",0,"Allianz Parque",NA,NA,NA,121,1062,NA,NA,NA,NA
+328168,1396,"2020-11-01T20:00:00+00:00",1604260800,NA,NA,"Regular Season - 19","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,118,NA,NA,NA,NA
+328169,1396,"2020-11-01T20:00:00+00:00",1604260800,NA,NA,"Regular Season - 19","Not Started","NS",0,"Arena Corinthians",NA,NA,NA,131,119,NA,NA,NA,NA
+328170,1396,"2020-11-01T20:00:00+00:00",1604260800,NA,NA,"Regular Season - 19","Not Started","NS",0,"Arena do Grêmio",NA,NA,NA,130,794,NA,NA,NA,NA
+328171,1396,"2020-11-01T20:00:00+00:00",1604260800,NA,NA,"Regular Season - 19","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho",NA,NA,NA,123,134,NA,NA,NA,NA
+328172,1396,"2020-11-01T20:00:00+00:00",1604260800,NA,NA,"Regular Season - 19","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,144,NA,NA,NA,NA
+328173,1396,"2020-11-01T20:00:00+00:00",1604260800,NA,NA,"Regular Season - 19","Not Started","NS",0,"Estádio Municipal Presidente Getúlio Vargas",NA,NA,NA,154,124,NA,NA,NA,NA
+328174,1396,"2020-11-01T20:00:00+00:00",1604260800,NA,NA,"Regular Season - 19","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,151,133,NA,NA,NA,NA
+328175,1396,"2020-11-08T20:00:00+00:00",1604865600,NA,NA,"Regular Season - 20","Not Started","NS",0,"Estádio Raimundo Sampaio",NA,NA,NA,1062,127,NA,NA,NA,NA
+328176,1396,"2020-11-08T20:00:00+00:00",1604865600,NA,NA,"Regular Season - 20","Not Started","NS",0,"Arena Fonte Nova",NA,NA,NA,118,120,NA,NA,NA,NA
+328177,1396,"2020-11-08T20:00:00+00:00",1604865600,NA,NA,"Regular Season - 20","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama",NA,NA,NA,133,121,NA,NA,NA,NA
+328178,1396,"2020-11-08T20:00:00+00:00",1604865600,NA,NA,"Regular Season - 20","Not Started","NS",0,"Estádio Nabi Abi Chedid",NA,NA,NA,794,128,NA,NA,NA,NA
+328179,1396,"2020-11-08T20:00:00+00:00",1604865600,NA,NA,"Regular Season - 20","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,144,131,NA,NA,NA,NA
+328180,1396,"2020-11-08T20:00:00+00:00",1604865600,NA,NA,"Regular Season - 20","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,130,NA,NA,NA,NA
+328181,1396,"2020-11-08T20:00:00+00:00",1604865600,NA,NA,"Regular Season - 20","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,129,123,NA,NA,NA,NA
+328182,1396,"2020-11-08T20:00:00+00:00",1604865600,NA,NA,"Regular Season - 20","Not Started","NS",0,"Estádio José Pinheiro Borda",NA,NA,NA,119,147,NA,NA,NA,NA
+328183,1396,"2020-11-08T20:00:00+00:00",1604865600,NA,NA,"Regular Season - 20","Not Started","NS",0,"Arena da Baixada",NA,NA,NA,134,154,NA,NA,NA,NA
+328184,1396,"2020-11-08T20:00:00+00:00",1604865600,NA,NA,"Regular Season - 20","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,151,NA,NA,NA,NA
+328185,1396,"2020-11-14T20:00:00+00:00",1605384000,NA,NA,"Regular Season - 21","Not Started","NS",0,"Allianz Parque",NA,NA,NA,121,124,NA,NA,NA,NA
+328186,1396,"2020-11-14T20:00:00+00:00",1605384000,NA,NA,"Regular Season - 21","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho",NA,NA,NA,123,133,NA,NA,NA,NA
+328187,1396,"2020-11-14T20:00:00+00:00",1605384000,NA,NA,"Regular Season - 21","Not Started","NS",0,"Estádio Municipal Presidente Getúlio Vargas",NA,NA,NA,154,126,NA,NA,NA,NA
+328188,1396,"2020-11-14T20:00:00+00:00",1605384000,NA,NA,"Regular Season - 21","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,794,NA,NA,NA,NA
+328189,1396,"2020-11-14T20:00:00+00:00",1605384000,NA,NA,"Regular Season - 21","Not Started","NS",0,"Arena Corinthians",NA,NA,NA,131,1062,NA,NA,NA,NA
+328190,1396,"2020-11-14T20:00:00+00:00",1605384000,NA,NA,"Regular Season - 21","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,119,NA,NA,NA,NA
+328191,1396,"2020-11-14T20:00:00+00:00",1605384000,NA,NA,"Regular Season - 21","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,118,NA,NA,NA,NA
+328192,1396,"2020-11-14T20:00:00+00:00",1605384000,NA,NA,"Regular Season - 21","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,151,134,NA,NA,NA,NA
+328193,1396,"2020-11-14T20:00:00+00:00",1605384000,NA,NA,"Regular Season - 21","Not Started","NS",0,"Arena do Grêmio",NA,NA,NA,130,129,NA,NA,NA,NA
+328194,1396,"2020-11-14T20:00:00+00:00",1605384000,NA,NA,"Regular Season - 21","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,127,144,NA,NA,NA,NA
+328195,1396,"2020-11-22T20:00:00+00:00",1606075200,NA,NA,"Regular Season - 22","Not Started","NS",0,"Estádio José Pinheiro Borda",NA,NA,NA,119,124,NA,NA,NA,NA
+328196,1396,"2020-11-22T20:00:00+00:00",1606075200,NA,NA,"Regular Season - 22","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,133,NA,NA,NA,NA
+328197,1396,"2020-11-22T20:00:00+00:00",1606075200,NA,NA,"Regular Season - 22","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,151,121,NA,NA,NA,NA
+328198,1396,"2020-11-22T20:00:00+00:00",1606075200,NA,NA,"Regular Season - 22","Not Started","NS",0,"Arena da Baixada",NA,NA,NA,134,128,NA,NA,NA,NA
+328199,1396,"2020-11-22T20:00:00+00:00",1606075200,NA,NA,"Regular Season - 22","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,129,1062,NA,NA,NA,NA
+328200,1396,"2020-11-22T20:00:00+00:00",1606075200,NA,NA,"Regular Season - 22","Not Started","NS",0,"Arena Corinthians",NA,NA,NA,131,130,NA,NA,NA,NA
+328201,1396,"2020-11-22T20:00:00+00:00",1606075200,NA,NA,"Regular Season - 22","Not Started","NS",0,"Estádio Nabi Abi Chedid",NA,NA,NA,794,118,NA,NA,NA,NA
+328202,1396,"2020-11-22T20:00:00+00:00",1606075200,NA,NA,"Regular Season - 22","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,127,147,NA,NA,NA,NA
+328203,1396,"2020-11-22T20:00:00+00:00",1606075200,NA,NA,"Regular Season - 22","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,154,NA,NA,NA,NA
+328204,1396,"2020-11-22T20:00:00+00:00",1606075200,NA,NA,"Regular Season - 22","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho",NA,NA,NA,123,144,NA,NA,NA,NA
+328205,1396,"2020-11-28T20:00:00+00:00",1606593600,NA,NA,"Regular Season - 23","Not Started","NS",0,"Arena do Grêmio",NA,NA,NA,130,127,NA,NA,NA,NA
+328206,1396,"2020-11-28T20:00:00+00:00",1606593600,NA,NA,"Regular Season - 23","Not Started","NS",0,"Estádio Raimundo Sampaio",NA,NA,NA,1062,120,NA,NA,NA,NA
+328207,1396,"2020-11-28T20:00:00+00:00",1606593600,NA,NA,"Regular Season - 23","Not Started","NS",0,"Arena Fonte Nova",NA,NA,NA,118,126,NA,NA,NA,NA
+328208,1396,"2020-11-28T20:00:00+00:00",1606593600,NA,NA,"Regular Season - 23","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,794,NA,NA,NA,NA
+328209,1396,"2020-11-28T20:00:00+00:00",1606593600,NA,NA,"Regular Season - 23","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,131,NA,NA,NA,NA
+328210,1396,"2020-11-28T20:00:00+00:00",1606593600,NA,NA,"Regular Season - 23","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,144,119,NA,NA,NA,NA
+328211,1396,"2020-11-28T20:00:00+00:00",1606593600,NA,NA,"Regular Season - 23","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,123,NA,NA,NA,NA
+328212,1396,"2020-11-28T20:00:00+00:00",1606593600,NA,NA,"Regular Season - 23","Not Started","NS",0,"Allianz Parque",NA,NA,NA,121,134,NA,NA,NA,NA
+328213,1396,"2020-11-28T20:00:00+00:00",1606593600,NA,NA,"Regular Season - 23","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama",NA,NA,NA,133,129,NA,NA,NA,NA
+328214,1396,"2020-11-28T20:00:00+00:00",1606593600,NA,NA,"Regular Season - 23","Not Started","NS",0,"Estádio Municipal Presidente Getúlio Vargas",NA,NA,NA,154,151,NA,NA,NA,NA
+328215,1396,"2020-12-06T20:00:00+00:00",1607284800,NA,NA,"Regular Season - 24","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,127,NA,NA,NA,NA
+328216,1396,"2020-12-06T20:00:00+00:00",1607284800,NA,NA,"Regular Season - 24","Not Started","NS",0,"Arena do Grêmio",NA,NA,NA,130,133,NA,NA,NA,NA
+328217,1396,"2020-12-06T20:00:00+00:00",1607284800,NA,NA,"Regular Season - 24","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,121,NA,NA,NA,NA
+328218,1396,"2020-12-06T20:00:00+00:00",1607284800,NA,NA,"Regular Season - 24","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,794,NA,NA,NA,NA
+328219,1396,"2020-12-06T20:00:00+00:00",1607284800,NA,NA,"Regular Season - 24","Not Started","NS",0,"Estádio Municipal Presidente Getúlio Vargas",NA,NA,NA,154,131,NA,NA,NA,NA
+328220,1396,"2020-12-06T20:00:00+00:00",1607284800,NA,NA,"Regular Season - 24","Not Started","NS",0,"Estádio Raimundo Sampaio",NA,NA,NA,1062,119,NA,NA,NA,NA
+328221,1396,"2020-12-06T20:00:00+00:00",1607284800,NA,NA,"Regular Season - 24","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,123,NA,NA,NA,NA
+328222,1396,"2020-12-06T20:00:00+00:00",1607284800,NA,NA,"Regular Season - 24","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,134,NA,NA,NA,NA
+328223,1396,"2020-12-06T20:00:00+00:00",1607284800,NA,NA,"Regular Season - 24","Not Started","NS",0,"Arena Fonte Nova",NA,NA,NA,118,129,NA,NA,NA,NA
+328224,1396,"2020-12-06T20:00:00+00:00",1607284800,NA,NA,"Regular Season - 24","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,144,151,NA,NA,NA,NA
+328225,1396,"2020-12-13T20:00:00+00:00",1607889600,NA,NA,"Regular Season - 25","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama",NA,NA,NA,133,124,NA,NA,NA,NA
+328226,1396,"2020-12-13T20:00:00+00:00",1607889600,NA,NA,"Regular Season - 25","Not Started","NS",0,"Estádio José Pinheiro Borda",NA,NA,NA,119,120,NA,NA,NA,NA
+328227,1396,"2020-12-13T20:00:00+00:00",1607889600,NA,NA,"Regular Season - 25","Not Started","NS",0,"Arena Corinthians",NA,NA,NA,131,126,NA,NA,NA,NA
+328228,1396,"2020-12-13T20:00:00+00:00",1607889600,NA,NA,"Regular Season - 25","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,127,128,NA,NA,NA,NA
+328229,1396,"2020-12-13T20:00:00+00:00",1607889600,NA,NA,"Regular Season - 25","Not Started","NS",0,"Arena da Baixada",NA,NA,NA,134,1062,NA,NA,NA,NA
+328230,1396,"2020-12-13T20:00:00+00:00",1607889600,NA,NA,"Regular Season - 25","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,151,130,NA,NA,NA,NA
+328231,1396,"2020-12-13T20:00:00+00:00",1607889600,NA,NA,"Regular Season - 25","Not Started","NS",0,"Allianz Parque",NA,NA,NA,121,118,NA,NA,NA,NA
+328232,1396,"2020-12-13T20:00:00+00:00",1607889600,NA,NA,"Regular Season - 25","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho",NA,NA,NA,123,147,NA,NA,NA,NA
+328233,1396,"2020-12-13T20:00:00+00:00",1607889600,NA,NA,"Regular Season - 25","Not Started","NS",0,"Estádio Nabi Abi Chedid",NA,NA,NA,794,154,NA,NA,NA,NA
+328234,1396,"2020-12-13T20:00:00+00:00",1607889600,NA,NA,"Regular Season - 25","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,129,144,NA,NA,NA,NA
+328235,1396,"2020-12-20T20:00:00+00:00",1608494400,NA,NA,"Regular Season - 26","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,144,124,NA,NA,NA,NA
+328236,1396,"2020-12-20T20:00:00+00:00",1608494400,NA,NA,"Regular Season - 26","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,120,NA,NA,NA,NA
+328237,1396,"2020-12-20T20:00:00+00:00",1608494400,NA,NA,"Regular Season - 26","Not Started","NS",0,"Estádio José Pinheiro Borda",NA,NA,NA,119,121,NA,NA,NA,NA
+328238,1396,"2020-12-20T20:00:00+00:00",1608494400,NA,NA,"Regular Season - 26","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama",NA,NA,NA,133,128,NA,NA,NA,NA
+328239,1396,"2020-12-20T20:00:00+00:00",1608494400,NA,NA,"Regular Season - 26","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,1062,NA,NA,NA,NA
+328240,1396,"2020-12-20T20:00:00+00:00",1608494400,NA,NA,"Regular Season - 26","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho",NA,NA,NA,123,130,NA,NA,NA,NA
+328241,1396,"2020-12-20T20:00:00+00:00",1608494400,NA,NA,"Regular Season - 26","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,127,118,NA,NA,NA,NA
+328242,1396,"2020-12-20T20:00:00+00:00",1608494400,NA,NA,"Regular Season - 26","Not Started","NS",0,"Estádio Nabi Abi Chedid",NA,NA,NA,794,134,NA,NA,NA,NA
+328243,1396,"2020-12-20T20:00:00+00:00",1608494400,NA,NA,"Regular Season - 26","Not Started","NS",0,"Estádio Municipal Presidente Getúlio Vargas",NA,NA,NA,154,129,NA,NA,NA,NA
+328244,1396,"2020-12-20T20:00:00+00:00",1608494400,NA,NA,"Regular Season - 26","Not Started","NS",0,"Arena Corinthians",NA,NA,NA,131,151,NA,NA,NA,NA
+328245,1396,"2020-12-27T20:00:00+00:00",1609099200,NA,NA,"Regular Season - 27","Not Started","NS",0,"Estádio Municipal Presidente Getúlio Vargas",NA,NA,NA,154,127,NA,NA,NA,NA
+328246,1396,"2020-12-27T20:00:00+00:00",1609099200,NA,NA,"Regular Season - 27","Not Started","NS",0,"Arena da Baixada",NA,NA,NA,134,133,NA,NA,NA,NA
+328247,1396,"2020-12-27T20:00:00+00:00",1609099200,NA,NA,"Regular Season - 27","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,126,NA,NA,NA,NA
+328248,1396,"2020-12-27T20:00:00+00:00",1609099200,NA,NA,"Regular Season - 27","Not Started","NS",0,"Allianz Parque",NA,NA,NA,121,794,NA,NA,NA,NA
+328249,1396,"2020-12-27T20:00:00+00:00",1609099200,NA,NA,"Regular Season - 27","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,131,NA,NA,NA,NA
+328250,1396,"2020-12-27T20:00:00+00:00",1609099200,NA,NA,"Regular Season - 27","Not Started","NS",0,"Arena Fonte Nova",NA,NA,NA,118,119,NA,NA,NA,NA
+328251,1396,"2020-12-27T20:00:00+00:00",1609099200,NA,NA,"Regular Season - 27","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,151,123,NA,NA,NA,NA
+328252,1396,"2020-12-27T20:00:00+00:00",1609099200,NA,NA,"Regular Season - 27","Not Started","NS",0,"Estádio Raimundo Sampaio",NA,NA,NA,1062,147,NA,NA,NA,NA
+328253,1396,"2020-12-27T20:00:00+00:00",1609099200,NA,NA,"Regular Season - 27","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,129,NA,NA,NA,NA
+328254,1396,"2020-12-27T20:00:00+00:00",1609099200,NA,NA,"Regular Season - 27","Not Started","NS",0,"Arena do Grêmio",NA,NA,NA,130,144,NA,NA,NA,NA
+328255,1396,"2021-01-03T20:00:00+00:00",1609704000,NA,NA,"Regular Season - 28","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,127,124,NA,NA,NA,NA
+328256,1396,"2021-01-03T20:00:00+00:00",1609704000,NA,NA,"Regular Season - 28","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,144,133,NA,NA,NA,NA
+328257,1396,"2021-01-03T20:00:00+00:00",1609704000,NA,NA,"Regular Season - 28","Not Started","NS",0,"Estádio Nabi Abi Chedid",NA,NA,NA,794,126,NA,NA,NA,NA
+328258,1396,"2021-01-03T20:00:00+00:00",1609704000,NA,NA,"Regular Season - 28","Not Started","NS",0,"Estádio Raimundo Sampaio",NA,NA,NA,1062,128,NA,NA,NA,NA
+328259,1396,"2021-01-03T20:00:00+00:00",1609704000,NA,NA,"Regular Season - 28","Not Started","NS",0,"Allianz Parque",NA,NA,NA,121,131,NA,NA,NA,NA
+328260,1396,"2021-01-03T20:00:00+00:00",1609704000,NA,NA,"Regular Season - 28","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,129,119,NA,NA,NA,NA
+328261,1396,"2021-01-03T20:00:00+00:00",1609704000,NA,NA,"Regular Season - 28","Not Started","NS",0,"Arena do Grêmio",NA,NA,NA,130,118,NA,NA,NA,NA
+328262,1396,"2021-01-03T20:00:00+00:00",1609704000,NA,NA,"Regular Season - 28","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,134,NA,NA,NA,NA
+328263,1396,"2021-01-03T20:00:00+00:00",1609704000,NA,NA,"Regular Season - 28","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho",NA,NA,NA,123,154,NA,NA,NA,NA
+328264,1396,"2021-01-03T20:00:00+00:00",1609704000,NA,NA,"Regular Season - 28","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,151,NA,NA,NA,NA
+328265,1396,"2021-01-10T20:00:00+00:00",1610308800,NA,NA,"Regular Season - 29","Not Started","NS",0,"Arena Corinthians",NA,NA,NA,131,124,NA,NA,NA,NA
+328266,1396,"2021-01-10T20:00:00+00:00",1610308800,NA,NA,"Regular Season - 29","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama",NA,NA,NA,133,120,NA,NA,NA,NA
+328267,1396,"2021-01-10T20:00:00+00:00",1610308800,NA,NA,"Regular Season - 29","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho",NA,NA,NA,123,121,NA,NA,NA,NA
+328268,1396,"2021-01-10T20:00:00+00:00",1610308800,NA,NA,"Regular Season - 29","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,128,NA,NA,NA,NA
+328269,1396,"2021-01-10T20:00:00+00:00",1610308800,NA,NA,"Regular Season - 29","Not Started","NS",0,"Estádio Nabi Abi Chedid",NA,NA,NA,794,1062,NA,NA,NA,NA
+328270,1396,"2021-01-10T20:00:00+00:00",1610308800,NA,NA,"Regular Season - 29","Not Started","NS",0,"Estádio Municipal Presidente Getúlio Vargas",NA,NA,NA,154,130,NA,NA,NA,NA
+328271,1396,"2021-01-10T20:00:00+00:00",1610308800,NA,NA,"Regular Season - 29","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,144,118,NA,NA,NA,NA
+328272,1396,"2021-01-10T20:00:00+00:00",1610308800,NA,NA,"Regular Season - 29","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,134,NA,NA,NA,NA
+328273,1396,"2021-01-10T20:00:00+00:00",1610308800,NA,NA,"Regular Season - 29","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,127,129,NA,NA,NA,NA
+328274,1396,"2021-01-10T20:00:00+00:00",1610308800,NA,NA,"Regular Season - 29","Not Started","NS",0,"Estádio José Pinheiro Borda",NA,NA,NA,119,151,NA,NA,NA,NA
+328275,1396,"2021-01-17T20:00:00+00:00",1610913600,NA,NA,"Regular Season - 30","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,151,127,NA,NA,NA,NA
+328276,1396,"2021-01-17T20:00:00+00:00",1610913600,NA,NA,"Regular Season - 30","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,120,NA,NA,NA,NA
+328277,1396,"2021-01-17T20:00:00+00:00",1610913600,NA,NA,"Regular Season - 30","Not Started","NS",0,"Arena da Baixada",NA,NA,NA,134,126,NA,NA,NA,NA
+328278,1396,"2021-01-17T20:00:00+00:00",1610913600,NA,NA,"Regular Season - 30","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,129,794,NA,NA,NA,NA
+328279,1396,"2021-01-17T20:00:00+00:00",1610913600,NA,NA,"Regular Season - 30","Not Started","NS",0,"Arena Fonte Nova",NA,NA,NA,118,131,NA,NA,NA,NA
+328280,1396,"2021-01-17T20:00:00+00:00",1610913600,NA,NA,"Regular Season - 30","Not Started","NS",0,"Allianz Parque",NA,NA,NA,121,130,NA,NA,NA,NA
+328281,1396,"2021-01-17T20:00:00+00:00",1610913600,NA,NA,"Regular Season - 30","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,123,NA,NA,NA,NA
+328282,1396,"2021-01-17T20:00:00+00:00",1610913600,NA,NA,"Regular Season - 30","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama",NA,NA,NA,133,147,NA,NA,NA,NA
+328283,1396,"2021-01-17T20:00:00+00:00",1610913600,NA,NA,"Regular Season - 30","Not Started","NS",0,"Estádio José Pinheiro Borda",NA,NA,NA,119,154,NA,NA,NA,NA
+328284,1396,"2021-01-17T20:00:00+00:00",1610913600,NA,NA,"Regular Season - 30","Not Started","NS",0,"Estádio Raimundo Sampaio",NA,NA,NA,1062,144,NA,NA,NA,NA
+328285,1396,"2021-01-20T20:00:00+00:00",1611172800,NA,NA,"Regular Season - 31","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,124,NA,NA,NA,NA
+328286,1396,"2021-01-20T20:00:00+00:00",1611172800,NA,NA,"Regular Season - 31","Not Started","NS",0,"Estádio Nabi Abi Chedid",NA,NA,NA,794,133,NA,NA,NA,NA
+328287,1396,"2021-01-20T20:00:00+00:00",1611172800,NA,NA,"Regular Season - 31","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,127,121,NA,NA,NA,NA
+328288,1396,"2021-01-20T20:00:00+00:00",1611172800,NA,NA,"Regular Season - 31","Not Started","NS",0,"Estádio Municipal Presidente Getúlio Vargas",NA,NA,NA,154,128,NA,NA,NA,NA
+328289,1396,"2021-01-20T20:00:00+00:00",1611172800,NA,NA,"Regular Season - 31","Not Started","NS",0,"Arena do Grêmio",NA,NA,NA,130,1062,NA,NA,NA,NA
+328290,1396,"2021-01-20T20:00:00+00:00",1611172800,NA,NA,"Regular Season - 31","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,119,NA,NA,NA,NA
+328291,1396,"2021-01-20T20:00:00+00:00",1611172800,NA,NA,"Regular Season - 31","Not Started","NS",0,"Arena Corinthians",NA,NA,NA,131,123,NA,NA,NA,NA
+328292,1396,"2021-01-20T20:00:00+00:00",1611172800,NA,NA,"Regular Season - 31","Not Started","NS",0,"Arena Fonte Nova",NA,NA,NA,118,134,NA,NA,NA,NA
+328293,1396,"2021-01-20T20:00:00+00:00",1611172800,NA,NA,"Regular Season - 31","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,151,129,NA,NA,NA,NA
+328294,1396,"2021-01-20T20:00:00+00:00",1611172800,NA,NA,"Regular Season - 31","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,144,NA,NA,NA,NA
+328295,1396,"2021-01-24T20:00:00+00:00",1611518400,NA,NA,"Regular Season - 32","Not Started","NS",0,"Arena da Baixada",NA,NA,NA,134,127,NA,NA,NA,NA
+328296,1396,"2021-01-24T20:00:00+00:00",1611518400,NA,NA,"Regular Season - 32","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,120,NA,NA,NA,NA
+328297,1396,"2021-01-24T20:00:00+00:00",1611518400,NA,NA,"Regular Season - 32","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,129,121,NA,NA,NA,NA
+328298,1396,"2021-01-24T20:00:00+00:00",1611518400,NA,NA,"Regular Season - 32","Not Started","NS",0,"Arena Corinthians",NA,NA,NA,131,794,NA,NA,NA,NA
+328299,1396,"2021-01-24T20:00:00+00:00",1611518400,NA,NA,"Regular Season - 32","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama",NA,NA,NA,133,1062,NA,NA,NA,NA
+328300,1396,"2021-01-24T20:00:00+00:00",1611518400,NA,NA,"Regular Season - 32","Not Started","NS",0,"Estádio José Pinheiro Borda",NA,NA,NA,119,130,NA,NA,NA,NA
+328301,1396,"2021-01-24T20:00:00+00:00",1611518400,NA,NA,"Regular Season - 32","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho",NA,NA,NA,123,118,NA,NA,NA,NA
+328302,1396,"2021-01-24T20:00:00+00:00",1611518400,NA,NA,"Regular Season - 32","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,147,NA,NA,NA,NA
+328303,1396,"2021-01-24T20:00:00+00:00",1611518400,NA,NA,"Regular Season - 32","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,144,154,NA,NA,NA,NA
+328304,1396,"2021-01-24T20:00:00+00:00",1611518400,NA,NA,"Regular Season - 32","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,151,NA,NA,NA,NA
+328305,1396,"2021-01-31T20:00:00+00:00",1612123200,NA,NA,"Regular Season - 33","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho",NA,NA,NA,123,127,NA,NA,NA,NA
+328306,1396,"2021-01-31T20:00:00+00:00",1612123200,NA,NA,"Regular Season - 33","Not Started","NS",0,"Allianz Parque",NA,NA,NA,121,120,NA,NA,NA,NA
+328307,1396,"2021-01-31T20:00:00+00:00",1612123200,NA,NA,"Regular Season - 33","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,144,126,NA,NA,NA,NA
+328308,1396,"2021-01-31T20:00:00+00:00",1612123200,NA,NA,"Regular Season - 33","Not Started","NS",0,"Estádio José Pinheiro Borda",NA,NA,NA,119,794,NA,NA,NA,NA
+328309,1396,"2021-01-31T20:00:00+00:00",1612123200,NA,NA,"Regular Season - 33","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,131,NA,NA,NA,NA
+328310,1396,"2021-01-31T20:00:00+00:00",1612123200,NA,NA,"Regular Season - 33","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,130,NA,NA,NA,NA
+328311,1396,"2021-01-31T20:00:00+00:00",1612123200,NA,NA,"Regular Season - 33","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama",NA,NA,NA,133,118,NA,NA,NA,NA
+328312,1396,"2021-01-31T20:00:00+00:00",1612123200,NA,NA,"Regular Season - 33","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,129,134,NA,NA,NA,NA
+328313,1396,"2021-01-31T20:00:00+00:00",1612123200,NA,NA,"Regular Season - 33","Not Started","NS",0,"Estádio Raimundo Sampaio",NA,NA,NA,1062,154,NA,NA,NA,NA
+328314,1396,"2021-01-31T20:00:00+00:00",1612123200,NA,NA,"Regular Season - 33","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,151,NA,NA,NA,NA
+328315,1396,"2021-02-07T20:00:00+00:00",1612728000,NA,NA,"Regular Season - 34","Not Started","NS",0,"Arena Fonte Nova",NA,NA,NA,118,124,NA,NA,NA,NA
+328316,1396,"2021-02-07T20:00:00+00:00",1612728000,NA,NA,"Regular Season - 34","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,127,133,NA,NA,NA,NA
+328317,1396,"2021-02-07T20:00:00+00:00",1612728000,NA,NA,"Regular Season - 34","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,121,NA,NA,NA,NA
+328318,1396,"2021-02-07T20:00:00+00:00",1612728000,NA,NA,"Regular Season - 34","Not Started","NS",0,"Arena do Grêmio",NA,NA,NA,130,128,NA,NA,NA,NA
+328319,1396,"2021-02-07T20:00:00+00:00",1612728000,NA,NA,"Regular Season - 34","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,151,1062,NA,NA,NA,NA
+328320,1396,"2021-02-07T20:00:00+00:00",1612728000,NA,NA,"Regular Season - 34","Not Started","NS",0,"Arena da Baixada",NA,NA,NA,134,119,NA,NA,NA,NA
+328321,1396,"2021-02-07T20:00:00+00:00",1612728000,NA,NA,"Regular Season - 34","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,123,NA,NA,NA,NA
+328322,1396,"2021-02-07T20:00:00+00:00",1612728000,NA,NA,"Regular Season - 34","Not Started","NS",0,"Estádio Municipal Presidente Getúlio Vargas",NA,NA,NA,154,147,NA,NA,NA,NA
+328323,1396,"2021-02-07T20:00:00+00:00",1612728000,NA,NA,"Regular Season - 34","Not Started","NS",0,"Arena Corinthians",NA,NA,NA,131,129,NA,NA,NA,NA
+328324,1396,"2021-02-07T20:00:00+00:00",1612728000,NA,NA,"Regular Season - 34","Not Started","NS",0,"Estádio Nabi Abi Chedid",NA,NA,NA,794,144,NA,NA,NA,NA
+328325,1396,"2021-02-13T20:00:00+00:00",1613246400,NA,NA,"Regular Season - 35","Not Started","NS",0,"Estádio Nabi Abi Chedid",NA,NA,NA,794,127,NA,NA,NA,NA
+328326,1396,"2021-02-13T20:00:00+00:00",1613246400,NA,NA,"Regular Season - 35","Not Started","NS",0,"Estádio Municipal Presidente Getúlio Vargas",NA,NA,NA,154,133,NA,NA,NA,NA
+328327,1396,"2021-02-13T20:00:00+00:00",1613246400,NA,NA,"Regular Season - 35","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,121,NA,NA,NA,NA
+328328,1396,"2021-02-13T20:00:00+00:00",1613246400,NA,NA,"Regular Season - 35","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,144,128,NA,NA,NA,NA
+328329,1396,"2021-02-13T20:00:00+00:00",1613246400,NA,NA,"Regular Season - 35","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,1062,NA,NA,NA,NA
+328330,1396,"2021-02-13T20:00:00+00:00",1613246400,NA,NA,"Regular Season - 35","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,130,NA,NA,NA,NA
+328331,1396,"2021-02-13T20:00:00+00:00",1613246400,NA,NA,"Regular Season - 35","Not Started","NS",0,"Estádio José Pinheiro Borda",NA,NA,NA,119,123,NA,NA,NA,NA
+328332,1396,"2021-02-13T20:00:00+00:00",1613246400,NA,NA,"Regular Season - 35","Not Started","NS",0,"Arena Corinthians",NA,NA,NA,131,134,NA,NA,NA,NA
+328333,1396,"2021-02-13T20:00:00+00:00",1613246400,NA,NA,"Regular Season - 35","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,129,NA,NA,NA,NA
+328334,1396,"2021-02-13T20:00:00+00:00",1613246400,NA,NA,"Regular Season - 35","Not Started","NS",0,"Arena Fonte Nova",NA,NA,NA,118,151,NA,NA,NA,NA
+328335,1396,"2021-02-17T20:00:00+00:00",1613592000,NA,NA,"Regular Season - 36","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,129,124,NA,NA,NA,NA
+328336,1396,"2021-02-17T20:00:00+00:00",1613592000,NA,NA,"Regular Season - 36","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,151,120,NA,NA,NA,NA
+328337,1396,"2021-02-17T20:00:00+00:00",1613592000,NA,NA,"Regular Season - 36","Not Started","NS",0,"Arena do Grêmio",NA,NA,NA,130,126,NA,NA,NA,NA
+328338,1396,"2021-02-17T20:00:00+00:00",1613592000,NA,NA,"Regular Season - 36","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho",NA,NA,NA,123,794,NA,NA,NA,NA
+328339,1396,"2021-02-17T20:00:00+00:00",1613592000,NA,NA,"Regular Season - 36","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,127,131,NA,NA,NA,NA
+328340,1396,"2021-02-17T20:00:00+00:00",1613592000,NA,NA,"Regular Season - 36","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama",NA,NA,NA,133,119,NA,NA,NA,NA
+328341,1396,"2021-02-17T20:00:00+00:00",1613592000,NA,NA,"Regular Season - 36","Not Started","NS",0,"Estádio Raimundo Sampaio",NA,NA,NA,1062,118,NA,NA,NA,NA
+328342,1396,"2021-02-17T20:00:00+00:00",1613592000,NA,NA,"Regular Season - 36","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,147,NA,NA,NA,NA
+328343,1396,"2021-02-17T20:00:00+00:00",1613592000,NA,NA,"Regular Season - 36","Not Started","NS",0,"Allianz Parque",NA,NA,NA,121,154,NA,NA,NA,NA
+328344,1396,"2021-02-17T20:00:00+00:00",1613592000,NA,NA,"Regular Season - 36","Not Started","NS",0,"Arena da Baixada",NA,NA,NA,134,144,NA,NA,NA,NA
+328345,1396,"2021-02-21T20:00:00+00:00",1613937600,NA,NA,"Regular Season - 37","Not Started","NS",0,"Estádio Urbano Caldeira",NA,NA,NA,128,124,NA,NA,NA,NA
+328346,1396,"2021-02-21T20:00:00+00:00",1613937600,NA,NA,"Regular Season - 37","Not Started","NS",0,"Arena Corinthians",NA,NA,NA,131,133,NA,NA,NA,NA
+328347,1396,"2021-02-21T20:00:00+00:00",1613937600,NA,NA,"Regular Season - 37","Not Started","NS",0,"Estádio Nilton Santos",NA,NA,NA,120,126,NA,NA,NA,NA
+328348,1396,"2021-02-21T20:00:00+00:00",1613937600,NA,NA,"Regular Season - 37","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,151,794,NA,NA,NA,NA
+328349,1396,"2021-02-21T20:00:00+00:00",1613937600,NA,NA,"Regular Season - 37","Not Started","NS",0,"Estádio Adelmar da Costa Carvalho",NA,NA,NA,123,1062,NA,NA,NA,NA
+328350,1396,"2021-02-21T20:00:00+00:00",1613937600,NA,NA,"Regular Season - 37","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,127,119,NA,NA,NA,NA
+328351,1396,"2021-02-21T20:00:00+00:00",1613937600,NA,NA,"Regular Season - 37","Not Started","NS",0,"Estádio Municipal Presidente Getúlio Vargas",NA,NA,NA,154,118,NA,NA,NA,NA
+328352,1396,"2021-02-21T20:00:00+00:00",1613937600,NA,NA,"Regular Season - 37","Not Started","NS",0,"Arena do Grêmio",NA,NA,NA,130,134,NA,NA,NA,NA
+328353,1396,"2021-02-21T20:00:00+00:00",1613937600,NA,NA,"Regular Season - 37","Not Started","NS",0,"Estádio Major Antônio Couto Pereira",NA,NA,NA,147,129,NA,NA,NA,NA
+328354,1396,"2021-02-21T20:00:00+00:00",1613937600,NA,NA,"Regular Season - 37","Not Started","NS",0,"Allianz Parque",NA,NA,NA,121,144,NA,NA,NA,NA
+328355,1396,"2021-02-24T20:00:00+00:00",1614196800,NA,NA,"Regular Season - 38","Not Started","NS",0,"Estádio Cícero Pompeu de Toledo",NA,NA,NA,126,127,NA,NA,NA,NA
+328356,1396,"2021-02-24T20:00:00+00:00",1614196800,NA,NA,"Regular Season - 38","Not Started","NS",0,"Estádio Governador Plácido Aderaldo Castelo",NA,NA,NA,129,120,NA,NA,NA,NA
+328357,1396,"2021-02-24T20:00:00+00:00",1614196800,NA,NA,"Regular Season - 38","Not Started","NS",0,"Estádio Raimundo Sampaio",NA,NA,NA,1062,121,NA,NA,NA,NA
+328358,1396,"2021-02-24T20:00:00+00:00",1614196800,NA,NA,"Regular Season - 38","Not Started","NS",0,"Arena Fonte Nova",NA,NA,NA,118,128,NA,NA,NA,NA
+328359,1396,"2021-02-24T20:00:00+00:00",1614196800,NA,NA,"Regular Season - 38","Not Started","NS",0,"Estádio José Pinheiro Borda",NA,NA,NA,119,131,NA,NA,NA,NA
+328360,1396,"2021-02-24T20:00:00+00:00",1614196800,NA,NA,"Regular Season - 38","Not Started","NS",0,"Estádio Nabi Abi Chedid",NA,NA,NA,794,130,NA,NA,NA,NA
+328361,1396,"2021-02-24T20:00:00+00:00",1614196800,NA,NA,"Regular Season - 38","Not Started","NS",0,"Arena da Baixada",NA,NA,NA,134,123,NA,NA,NA,NA
+328362,1396,"2021-02-24T20:00:00+00:00",1614196800,NA,NA,"Regular Season - 38","Not Started","NS",0,"Estádio do Governo do Estado de Goiás",NA,NA,NA,144,147,NA,NA,NA,NA
+328363,1396,"2021-02-24T20:00:00+00:00",1614196800,NA,NA,"Regular Season - 38","Not Started","NS",0,"Estadio Jornalista Mário Filho",NA,NA,NA,124,154,NA,NA,NA,NA
+328364,1396,"2021-02-24T20:00:00+00:00",1614196800,NA,NA,"Regular Season - 38","Not Started","NS",0,"Estádio Club de Regatas Vasco da Gama",NA,NA,NA,133,151,NA,NA,NA,NA
